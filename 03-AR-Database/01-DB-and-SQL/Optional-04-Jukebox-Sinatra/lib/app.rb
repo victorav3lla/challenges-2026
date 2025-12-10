@@ -1,5 +1,5 @@
-gem 'activerecord', '~> 7.1.3.2'
-gem 'sqlite3', '~> 1.7.3'
+gem 'activerecord', '~> 8.1'
+gem 'sqlite3', '2.8.1'
 # ^ DO NOT CHANGE! This makes sure your system uses the correct versions of activerecord and sqlite3
 #
 require "sinatra"
