@@ -1,5 +1,3 @@
-## AI Week - Intermediate Demos
-
 At this point, you should have users and a first functioning feature using an LLM API, with a working system prompt.
 
 Today you should add the conversation behaviour in your app to allow users to **follow-up** on an LLM answer, **keeping the context** of the previous messages.

@@ -1,5 +1,3 @@
-## AI Week - Kick-off
-
 You will spend the next sessions with your Project Group working on an AI Assistant for a **User** with a **Goal**. For instance, Wott is an AI Assistant for **students learning how to code**. You'll want to think about the "persona" of your core user ("student learning how to code") and their goal ("I'm stuck on a problem and want the AI to solve it for me"). This will help you define the scope of your app.
 
 Brainstorm with your group and create a ticket to validate your idea with a teacher.

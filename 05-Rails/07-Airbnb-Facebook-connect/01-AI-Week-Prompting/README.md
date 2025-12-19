@@ -1,5 +1,3 @@
-## AI Week - Keep building
-
 At this point, you should already have a basic Rails app deployed on Heroku, with one core model. If this is not the case, please create a ticket.
 
 #### Create a new branch for your feature

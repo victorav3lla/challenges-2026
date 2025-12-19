@@ -1,5 +1,3 @@
-## AI Week - Keep building
-
 Intermediate demos are behind us, now you should have a better idea of what you will present during final demos.
 
 As seen during the lecture, you can now **process files** and setup ActiveStorage with Cloudinary to do so.
