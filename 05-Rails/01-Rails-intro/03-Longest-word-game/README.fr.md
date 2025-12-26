@@ -189,6 +189,20 @@ class ApplicationSystemTestCase < ActionDispatch::SystemTestCase
 end
 ```
 
+NOTE : En raison d'un problème de compatibilité avec Rails 8.1, tu devras peut-être ajouter la ligne suivante à ton `Gemfile` :
+
+```ruby
+group :test do
+  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
+  gem "capybara"
+  gem "selenium-webdriver"
+  # Pin minitest below 6.0 due to compatibility issue with Rails 8.1
+  gem "minitest", "< 6"
+  # 👆 ADD THIS
+end
+```
+
+
 Tu es prêt ? Tu vas pouvoir commencer les tests Rails.
 
 Dans le terminal, exécute la commande suivante pour créer le fichier test :

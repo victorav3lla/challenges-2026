@@ -57,16 +57,21 @@ rails db:migrate RAILS_ENV=test  # If you added a migration
 rspec spec/models                # Launch tests
 ```
 
-Before starting to code, don't forget to setup your Rails app for Front-end. Like in the lecture, let's add the gems we're going to need:
+Before starting to code, don't forget to setup your Rails app for Front-end. Like in the lecture, Rails 8 uses Propshaft by default, but the `bootstrap` gem requires Sprockets:
 
 ```ruby
 # Gemfile
-# [...]
+
+# REMOVE this line:
+# gem "propshaft"
+
+# ADD these gems:
+gem "sprockets-rails"
+gem "sassc-rails"
 gem "bootstrap", "~> 5.3"
 gem "autoprefixer-rails"
 gem "font-awesome-sass", "~> 6.1"
 gem "simple_form"
-gem "sassc-rails"
 ```
 
 ```bash
@@ -78,11 +83,35 @@ Then let's download the Le Wagon's stylesheets:
 
 ```bash
 rm -rf app/assets/stylesheets
-curl -L https://github.com/lewagon/stylesheets/archive/master.zip > stylesheets.zip
-unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-master app/assets/stylesheets
+curl -L https://github.com/lewagon/rails-stylesheets/archive/rails-8.zip > stylesheets.zip
+unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-rails-8 app/assets/stylesheets
 ```
 
-Finally let's import the Boostrap JS library with `importmap`:
+Create the Sprockets manifest file (Rails 8 doesn't have this by default):
+
+```bash
+mkdir -p app/assets/config
+touch app/assets/config/manifest.js
+```
+
+```js
+// app/assets/config/manifest.js
+//= link_tree ../images
+//= link_tree ../../javascript .js
+//= link_directory ../stylesheets .css
+```
+
+Update your layout to use the correct stylesheet tag:
+
+```erb
+<!-- app/views/layouts/application.html.erb -->
+<!-- replace this line -->
+<%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
+<!-- with this line -->
+<%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+```
+
+Now let's import the Bootstrap JS library with `importmap`:
 
 ```bash
 importmap pin bootstrap
@@ -96,10 +125,13 @@ import "@popperjs/core";
 import "bootstrap";
 ```
 
-And then in `manifest.js`, add the following lines:
+Add the Bootstrap JS files to your manifest:
 
 ```js
 // app/assets/config/manifest.js
+//= link_tree ../images
+//= link_tree ../../javascript .js
+//= link_directory ../stylesheets .css
 //= link popper.js
 //= link bootstrap.min.js
 ```
