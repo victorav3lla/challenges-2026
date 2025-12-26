@@ -57,16 +57,21 @@ rails db:migrate RAILS_ENV=test  # If you added a migration
 rspec spec/models                # Launch tests
 ```
 
-在开始编码之前，不要忘记为前端设置 Rails 应用。就像在讲座中一样，让我们添加我们需要的 gems：
+在开始编码之前，不要忘记为前端设置 Rails 应用。就像在讲座中一样，Rails 8 默认使用 Propshaft，但 `bootstrap` gem 需要 Sprockets：
 
 ```ruby
 # Gemfile
-# [...]
+
+# 删除这一行：
+# gem "propshaft"
+
+# 添加这些 gems：
+gem "sprockets-rails"
+gem "sassc-rails"
 gem "bootstrap", "~> 5.3"
 gem "autoprefixer-rails"
 gem "font-awesome-sass", "~> 6.1"
 gem "simple_form"
-gem "sassc-rails"
 ```
 
 ```bash
@@ -78,26 +83,38 @@ rails generate simple_form:install --bootstrap
 
 ```bash
 rm -rf app/assets/stylesheets
-curl -L https://github.com/lewagon/stylesheets/archive/master.zip > stylesheets.zip
-unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-master app/assets/stylesheets
+curl -L https://github.com/lewagon/rails-stylesheets/archive/rails-8.zip > stylesheets.zip
+unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-rails-8 app/assets/stylesheets
 ```
 
-最后让我们使用`importmap`导入 Boostrap JS 库：
+创建 Sprockets manifest 文件（Rails 8 默认没有这个文件）：
+
+```bash
+mkdir -p app/assets/config
+touch app/assets/config/manifest.js
+```
+
+```js
+// app/assets/config/manifest.js
+//= link_tree ../images
+//= link_tree ../../javascript .js
+//= link_directory ../stylesheets .css
+```
+
+更新你的 layout 以使用正确的 stylesheet 标签：
+
+```erb
+<!-- app/views/layouts/application.html.erb -->
+<!-- 替换这一行 -->
+<%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
+<!-- 用这一行 -->
+<%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+```
+
+现在让我们使用`importmap`导入 Bootstrap JS 库：
 
 ```bash
 importmap pin bootstrap
-```
-
-我们需要更新`importmap.rb`文件中的命令固定的`popper`链接，所以用下面的命令替换这一行：
-
-```ruby
-pin "@popperjs/core", to: "https://ga.jspm.io/npm:@popperjs/core@2.11.6/lib/index.js" # 删掉这一行
-```
-
-然后把这一行粘上去：
-
-```ruby
-pin "@popperjs/core", to: "https://unpkg.com/@popperjs/core@2.11.2/dist/esm/index.js" # use unpkg.com as ga.jspm.io contains a broken popper package"
 ```
 
 在`application.js`中，添加以下行：
@@ -108,15 +125,18 @@ import "@popperjs/core";
 import "bootstrap";
 ```
 
-然后在`manifest.js`中，添加以下行：
+将 Bootstrap JS 文件添加到你的 manifest：
 
 ```js
 // app/assets/config/manifest.js
+//= link_tree ../images
+//= link_tree ../../javascript .js
+//= link_directory ../stylesheets .css
 //= link popper.js
 //= link bootstrap.min.js
 ```
 
-以下是最终在 `config/importmap.rb` 文件中的部分内容：
+最后在 `config/importmap.rb` 中：
 
 ```rb
 # config/importmap.rb
