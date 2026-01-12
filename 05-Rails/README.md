@@ -58,18 +58,17 @@ We'll take a step back and check you've grasped all the core notions of Rails.
 - Collaboration techniques with git & Github. You will discover how to work in a dev team using `branches` and `pull requests`. It's a system you will use for every dev project you ever do, so pay attention!
 
 
-### `08 Multi-modal Inference`
+### `08 Conversational UX`
 
 2-part morning lecture:
-- Multi-modal Inference. You will learn how to send files along w/ text to be processed by LLMs.
+- Conversational UX: Allow users to follow-up on a first LLM answer by providing the conversation's history to the LLM. You will learn how to build a conversational UX in your Rails app using Turbo streams.
 - JavaScript in Rails. Learn how to use Stimulus and `importmap` to implement new JavaScript features and to use third party libraries in Rails.
 
 Then, every group should demo the current version of their AI Assistant in front of the class.
 
-### `09 Conversational UX`
+### `09 Multi-modal Inference`
 
-Allow users to follow-up on a first LLM answer by providing the conversation's history to the LLM. You will learn how to build a conversational UX in your Rails app using Turbo streams.
-
+Multi-modal Inference. You will learn how to send files along w/ text to be processed by LLMs.
 
 ### `10 Tools & Agents`
 

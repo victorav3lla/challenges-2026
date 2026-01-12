@@ -58,17 +58,17 @@ Clase matinal en 2 partes:
 - Técnicas de colaboración con git y Github. Descubrirás cómo trabajar en un equipo de desarrollo usando `branches` y `pull requests`. Es un sistema que usarás en cada proyecto de desarrollo que hagas, así que ¡presta atención!
 
 
-### `08 Multi-modal Inference`
+### `08 Conversational UX`
 
 Clase matinal en 2 partes:
-- Inferencia Multi-modal. Aprenderás cómo enviar archivos junto con texto para ser procesados por LLMs.
+- UX Conversacional: Permitir a los usuarios dar seguimiento a una primera respuesta del LLM proporcionando el historial de la conversación al LLM. Aprenderás cómo construir una UX conversacional en tu app Rails usando Turbo streams.
 - JavaScript en Rails. Aprenderás cómo utilizar Stimulus e `importmap` para implementar nuevas características de JavaScript y utilizar bibliotecas de terceros en Rails.
 
 Luego, cada grupo debe hacer una demostración de la versión actual de su Asistente de IA en frente de toda la clase.
 
-### `09 Conversational UX`
+### `09 Multi-modal Inference`
 
-Permitir a los usuarios dar seguimiento a una primera respuesta del LLM proporcionando el historial de la conversación al LLM. Aprenderás cómo construir una UX conversacional en tu app Rails usando Turbo streams.
+Inferencia Multi-modal. Aprenderás cómo enviar archivos junto con texto para ser procesados por LLMs.
 
 
 ### `10 Tools & Agents`
