@@ -1,34 +1,34 @@
 ## What you will build
 
-This design sprint is a critical step for your project, as you will build your **black and white low fidelity prototype** that will be your starting point when you start coding during the projects weeks.
-
-![Stake of the sprint](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_stakes_of_day_2.gif)
+This Product Design Sprint is a critical step for your final project, as you will build a **low fidelity prototype** that will be your starting point when you start coding during the projects weeks.
 
 ### Objective
 
-This sprint has several steps, all of which are key to come up with the best prototype for your Demo. However, don't lose the big picture and remember that the goal is to ship the **lo-fi black and white prototype** and showcase it in front of your classmates. To do so, you will have to:
+This sprint has several steps, all of which are key to come up with the best prototype for your Demo. However, keep in mind the end goal: ship a **working prototype** and **pitch it** in front of your classmates. To do so, you will have to:
 
 - **Scope** your product
 - Identify your **Core User Journey**
-- Work on Figma to build a UI Kit and finally your **lo-fi prototype**
+- Work on Figma to build a wireframe
+- Connect each frame to finalize a **lo-fi prototype**
 
 ### Schedule of this sprint
 
 Here is the schedule:
 
 1. Define your **Product Pitch** (~30mn)
-1. Find your **Core User Journey** (~30mn)
-1. Sketch your **User Flow** (~15mn)
-1. Create a **Basic UI Kit** (~30mn)
-1. Add **advanced components** to your UI Kit (~30mn)
-1. Create a **Wireframe** (~1h)
-1. Turn your wireframe into a **Prototype** (~15mn)
-1. **Prepare your pitch** (all the remaining time)
+1. Identify your **Core User Journey** (~30mn)
+1. Build a **Wireframe** (~2h)
+1. Turn your wireframe into a **Prototype** (~30mn)
+1. Test with a clickthrough and **prepare your pitch** (~30m)
+1. Last but not least... **Pitch your prototype** in front of the class!
 
-The timing is tight so don't take too long to get started and try to respect the durations indicated. You should at least have **finished your Basic UI Kit before the break**.
+The day goes fast, it is called a sprint on purpose. Make sure you finalize the **Product Pitch** and **Core User Journey** steps before lunch time.
 
-Once again remember, your UI Kit and your Wireframe should be in **black and white only**. We don't want to see any color or any visual identity at this point in time.
+It's a very important milestone as it's the kickoff of the app you will build during the last phase of the bootcamp.
+By the end of today, you will also:
+- Have a clearer idea of the final product you will be building as a team
+- Understand how to use Figma in your future roles
 
-It's a very important milestone as it's the kickoff of the app you will build during the last 2 weeks of the bootcamp. Every step is important, that's why **you should validate each one with a TA**.
+Every step is important, that's why **you should validate each one with a TA**.
 
 Good luck!

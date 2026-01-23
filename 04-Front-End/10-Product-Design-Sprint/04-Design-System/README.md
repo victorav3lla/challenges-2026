@@ -1,10 +1,26 @@
-## Basic UI Kit (30mn)
+## Design System
 
-Congratulations! Now that the user research on your product is done, you are going to start working on the prototype of your application.
+Congratulations! Now that you are done with the User Research phase, you are going to start working on the prototype of your application.
 
-But before that, you need to take few minutes to build your **UI Kit**.
+But before that, you need to take a couple of minutes to figure out which **Design System** you are going to use.
 
-A UI Kit is a set of lo-fi components, reusable across pages. It will help you implement each screen of your wireframe, and it will help you stay consistent in all screens.
+### What is a Design System?
+
+A **Design System** is at the center of every Web Application's design, and you will most likely interact with one in your future career.
+
+It is usually built by a Graphic Designer, and specifies among other things:
+- Typography and Color Palettes used across your product
+- Components (buttons, inputs, ...) that can be used for each screens' design
+- Different states for these components (disabled, error, ...)
+
+In short, think of it as the **Single Source of Truth** for design and development teams.
+
+### Choose your Design System
+
+Building a Design System from scratch is a big endeavour and cannot be done during this Product Sprint.
+For that reason, and depending on how comfortable your team feels with Figma, you have two options today:
+1. Use the built-in Figma Design System: it looks standard, but it will make your life easier if it is your first time with Figma
+2. **(⚠️ Figma Power Users ONLY)** Use another Design System: Here are some that we like: [Untitled UI](https://www.figma.com/community/file/1020079203222518115), [Chakra UI](https://www.figma.com/community/file/1506648876941130701), [Shadcn kit](https://ui.shadcn.com/docs/figma), [Daisy UI](https://daisyui.com/store/daisyui-figma-library/)
 
 To create the UI Kit and your prototype we'll use [Figma](https://www.figma.com/). Sign up and create your project (you can work directly in your browser or [download the desktop app](https://www.figma.com/downloads/)).
 

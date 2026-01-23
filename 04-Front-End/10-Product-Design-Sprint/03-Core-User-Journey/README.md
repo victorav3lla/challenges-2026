@@ -1,31 +1,39 @@
 ## Core User Journey (30mn)
 
-Now that you have a clear product pitch and that you share the same vision, it's time to define your product's **Core User Journey**.
+Now that you have a clear product pitch and that your whole team shares the same vision, it's time to identify and map out your product's **Core User Journey**.
 
-The core user journey is **the main task** a user will do on your app to achieve their goal. This is the most important task on your app, and this is the one you will present in front of the class.
+### What is a Core User Journey?
 
+The core user journey is **the main action** a user will take with your app to achieve their goal. This is the most important task on your app, and this is the one you will **pitch in front of the class today**.
 
-### What is a Core User Journey
+How to identify your Core User Journey?
+For most modern web applications, the core journey checks one or both of these boxes:
+- It **addresses your target users' need**
+- It generates **revenue**
 
-A user journey represents **all the steps** a user will do to complete a task.
+On FigJAM, in the **UX Research Template**, write down your Core User Journey in the top-right box.
 
-In modern web applications, several tasks can be done by users, through different journeys. Some of these tasks are common to all products (signing up, signing in, editing your profile, etc.) and others are specific. The **common ones should not be included in your prototype** as they don't add any value to your product.
+### Mapping out a User Journey
 
-Here you need to focus on the specific tasks of your product and choose the journey which directly answers to the **need you want to fulfill**.
+In modern web applications, several tasks can be done by users, through different journeys. Some of these tasks are common to all products (signing up, signing in, editing your profile, etc.) and others are specific. The **common ones should not be included in your prototype** at this stage, but will be part of your final product.
 
-Keep in mind that building a user journey is part of what product designers call **User Research**. We don't want to focus on the product interface here, but more on **each action the user will perform** to achieve their goal. Your work here is to describe precisely each step of your core user journey by following these rules:
+Now that you have identified your Core User Journey, you will be able to map it out by identifying:
+- Which **pages** (or screens) your user will navigate through
+- What **action** your user need to take on each page
+- What **context** your user will need to have to take that action
 
-- Each step should describe a **user action**
-- **Keep steps short:** If you can't express a step shortly it is maybe because you need to divide it into 2 steps.
-- **Action should be concrete**: avoid vague action descriptions like `The user searches a restaurant` (how do they search? By name, by adress, by rate, etc?)
-- **Use human words:** we are not focusing on the interface, so avoid words that are used to describe an interface (prefer instead words that describe a user action)
+For example, with Airbnb:
+- **My user is on:** the homepage
+- **I want my user to:** search for a place to stay
+- **To do that, they need to:** specify their destination, travel dates, number of travelers
 
-![Words you should use for describing core user journey steps](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_core_user_journey.png)
+Last but not least, to make your Core User Journey as efficient as possible, keep in mind some simple UX (User Experience) rules:
+- No more than **5 pages** (you will lose users at each page!)
+- By the end of the Core Journey, your users should have answered their need (e.g. booked a place to stay)
+- No **Multiple Choice Journeys** - It is a straight line
 
 ### Your turn!
 
-Take back the spreadsheet you duplicated in the previous challenge and complete the **sheet number 4** with all the steps of your Core User Journey.
+Go back to the **UX Research Template** on FigJAM and map out your Core User Journey, page by page.
 
-The final result should look like a little **scenario of 10 to 15 steps**. When it's done, you can take 5 minutes to precise for each steps if it corresponds to a screen or to a link between two screens.
-
-When it's done, please call a teacher to validate your core user journey.
+When you are done, make sure to **call a teacher** to validate your core user journey.
