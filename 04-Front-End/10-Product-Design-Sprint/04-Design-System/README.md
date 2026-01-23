@@ -8,9 +8,9 @@ But before that, you need to take a couple of minutes to figure out which **Desi
 
 A **Design System** is at the center of every Web Application's design, and you will most likely interact with one in your future career.
 
-It is usually built by a Graphic Designer, and specifies among other things:
-- Typography and Color Palettes used across your product
-- Components (buttons, inputs, ...) that can be used for each screens' design
+It is usually built by a Graphic Designer and specifies, among other things:
+- A `Typography` and `Color Palettes` used across your product
+- A collection of `Components` (buttons, inputs, ...) that can be used for each screens' design
 - Different states for these components (disabled, error, ...)
 
 In short, think of it as the **Single Source of Truth** for design and development teams.
@@ -18,73 +18,12 @@ In short, think of it as the **Single Source of Truth** for design and developme
 ### Choose your Design System
 
 Building a Design System from scratch is a big endeavour and cannot be done during this Product Sprint.
-For that reason, and depending on how comfortable your team feels with Figma, you have two options today:
-1. Use the built-in Figma Design System: it looks standard, but it will make your life easier if it is your first time with Figma
-2. **(⚠️ Figma Power Users ONLY)** Use another Design System: Here are some that we like: [Untitled UI](https://www.figma.com/community/file/1020079203222518115), [Chakra UI](https://www.figma.com/community/file/1506648876941130701), [Shadcn kit](https://ui.shadcn.com/docs/figma), [Daisy UI](https://daisyui.com/store/daisyui-figma-library/)
+So depending on how comfortable your team feels with Figma, you have two options today:
+1. Use the built-in Figma's Simple Design System: it looks standard, but it will make your life easier if it is your first time with Figma
+1. **(⚠️ Figma Power Users ONLY)** Use another Design System - here are some that we like: [Untitled UI](https://www.figma.com/community/file/1020079203222518115), [Chakra UI](https://www.figma.com/community/file/1506648876941130701), [Shadcn kit](https://ui.shadcn.com/docs/figma), [Daisy UI](https://daisyui.com/store/daisyui-figma-library/)
 
-To create the UI Kit and your prototype we'll use [Figma](https://www.figma.com/). Sign up and create your project (you can work directly in your browser or [download the desktop app](https://www.figma.com/downloads/)).
+### Create your Design project in Figma
 
-> You are going to work on Figma as a team. Only one of you should create the figma project and then invite the rest of the team as collaborators.<br>You can follow the steps described [on this Notion page](https://www.notion.so/Give-edit-access-to-a-Figma-file-e6a2a3d9dce342a7b824e0f71cde9035) to create your collaborative project.
+So far, you have only been using the **FigJAM** feature of Figma. Let's dive into what Figma is famous for: its design feature!
 
-### Create the UI Kit
-
-To build your UI Kit, add a new page called UI Kit and then create a frame to have an idea of the device screen size (it will help you create components that aren't too big or too small).
-
-![Page and frame creation on Figma](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_basic_ui_kit_creation.gif)
-
-> We advise you to work together for the UI Kit creation. It will be easier to split the work between teammates when the UI Kit is created.
-
-### Create a grayscale palette
-
-As you will build a lo-fi UI Kit, you'll not use colors to create your components.
-
-But at some point it could be handy to have access to a **grayscale palette** to add some contrast in your components.
-
-Create 5 squares in your UI Kit to implement it. Each one of these squares should have the following background color:
-
-- `#000000` (black)
-- `#888888` (dark grey)
-- `#BBBBBB` (grey)
-- `#DDDDDD` (light grey)
-- `#FFFFFF` (white)
-
-This will be the unique color allowed for your lo-fi components.
-
-When all the squares are done, select each square and save each one color as your project colors. It will allow you to access your personal color palette everywhere in your project.
-
-![Create personal color palette](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_greyscale_color_palette.gif)
-
-You can use [styles](https://help.figma.com/hc/en-us/articles/360039820134-Manage-and-share-styles) to help save colors.
-
-### Create your first component
-
-Now it's time to create your first component. Let's begin with a smaller one, **the main title**.
-
-Select the text tool, and create a title with a size of `48px` in `bold`. When it's done, don't forget to click on the **create component** button at the top of your workspace. **It's really important to do that** If you forget about it you will not find this component in the assets tab during the wireframe creation.
-
-Here is an example of what you have to do:
-
-![Component creation on Figma](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_basic_ui_kit_component_creation.gif)
-
-You can use [text styles](https://help.figma.com/hc/en-us/articles/360039957034-Create-and-apply-text-styles) to help save consistent font/size combinations.
-
-![Figma text styles](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_figma_text_styles.png)
-
-### Create all the basic components
-
-Now that you have created your first component, let's complete your UI Kit.
-
-Here is the list of components you should have in your UI Kit before moving to the next challenge.
-
-- A main title (you already did this one)
-- A secondary title
-- A paragraph
-- A link
-- A button
-- An input
-
-The last 3 components are more complex. You will need to group several items together. To do that, start by selecting each item, then right-click on the selected items and choose `Group selection` (you can also press `cmd` or `ctrl` + `g`).
-
-Here is an example for the button creation:
-
-![Group creation on Figma](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_basic_ui_kit_group_creation.gif)
+One team member should now create a new **Design** project and invite the rest of the team as collaborators.

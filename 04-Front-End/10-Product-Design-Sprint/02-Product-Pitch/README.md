@@ -15,7 +15,7 @@ To work on this step as a team, we will be using the **collaborative whiteboard*
 
 Figma can be accessed through the browser, but we strongly recommend [downloading the desktop app](https://www.figma.com/downloads/).
 
-You are going to work with Figma as a team. Only one of you should create the FigJAM board (and later on, the Figma design file) and then invite the rest of the team as collaborators.
+You are going to work with Figma as a team: only one of you should create the FigJAM board (and later on, the Figma design file) and then invite the rest of the team as collaborators.
 You can follow the steps described [on this Notion page](https://www.notion.so/Give-edit-access-to-a-Figma-file-e6a2a3d9dce342a7b824e0f71cde9035) to create your collaborative project.
 
 ### Your turn!
