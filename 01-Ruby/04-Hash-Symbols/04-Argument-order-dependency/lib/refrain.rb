@@ -1,6 +1,6 @@
 def refrain(lyrics, number_of_times = 1, vibrato = 0, strong = false)
   song_refrain = []
-  lyrics += lyrics[lyrics.size - 1] * vibrato
+  lyrics += lyrics[-1] * vibrato
   lyrics.upcase! if strong
 
   number_of_times.times do
