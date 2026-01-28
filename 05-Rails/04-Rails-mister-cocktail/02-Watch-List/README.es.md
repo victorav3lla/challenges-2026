@@ -57,16 +57,21 @@ rails db:migrate RAILS_ENV=test  # If you added a migration
 rspec spec/models                # Launch tests
 ```
 
-Antes de comenzar a escribir tu código, no olvides configurar tu app Rails para el Front-end. Tal como se mencionó en la clase de esta mañana, agrega las gemas que vamos a necesitar:
+Antes de comenzar a escribir tu código, no olvides configurar tu app Rails para el Front-end. Tal como se mencionó en la clase de esta mañana, Rails 8 usa Propshaft por defecto, pero la gema `bootstrap` requiere Sprockets:
 
 ```ruby
 # Gemfile
-# [...]
+
+# ELIMINA esta línea:
+# gem "propshaft"
+
+# AGREGA estas gemas:
+gem "sprockets-rails"
+gem "sassc-rails"
 gem "bootstrap", "~> 5.3"
 gem "autoprefixer-rails"
 gem "font-awesome-sass", "~> 6.1"
 gem "simple_form"
-gem "sassc-rails"
 ```
 
 ```bash
@@ -78,11 +83,35 @@ Después descarga los stylesheets de Le Wagon:
 
 ```bash
 rm -rf app/assets/stylesheets
-curl -L https://github.com/lewagon/stylesheets/archive/master.zip > stylesheets.zip
+curl -L https://github.com/lewagon/rails-stylesheets/archive/master.zip > stylesheets.zip
 unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-master app/assets/stylesheets
 ```
 
-Finalmente, importa la librería Boostrap JS utilizando `importmap`:
+Crea el archivo manifest de Sprockets (Rails 8 no lo tiene por defecto):
+
+```bash
+mkdir -p app/assets/config
+touch app/assets/config/manifest.js
+```
+
+```js
+// app/assets/config/manifest.js
+//= link_tree ../images
+//= link_tree ../../javascript .js
+//= link_directory ../stylesheets .css
+```
+
+Actualiza tu layout para usar el tag de stylesheet correcto:
+
+```erb
+<!-- app/views/layouts/application.html.erb -->
+<!-- reemplaza esta línea -->
+<%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
+<!-- con esta línea -->
+<%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+```
+
+Ahora importa la librería Bootstrap JS utilizando `importmap`:
 
 ```bash
 importmap pin bootstrap
@@ -96,10 +125,13 @@ import "@popperjs/core";
 import "bootstrap";
 ```
 
-Depués de esto, agrega las siguientes líneas:
+Agrega los archivos JS de Bootstrap a tu manifest:
 
 ```js
 // app/assets/config/manifest.js
+//= link_tree ../images
+//= link_tree ../../javascript .js
+//= link_directory ../stylesheets .css
 //= link popper.js
 //= link bootstrap.min.js
 ```
@@ -109,11 +141,11 @@ Y finalmente en `config/importmap.rb`:
 ```rb
 # config/importmap.rb
 
-# replace these lines:
+# reemplaza estas líneas:
 # pin "bootstrap" # @5.3.2
 # pin "@popperjs/core", to: "@popperjs--core.js" # @2.11.8
 
-# with this:
+# con esto:
 pin "bootstrap", to: "bootstrap.min.js", preload: true
 pin "@popperjs/core", to: "popper.js", preload: true
 ```

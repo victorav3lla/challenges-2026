@@ -1,6 +1,6 @@
 # rubocop:disable Metrics/MethodLength
 
-class InitWorld < ActiveRecord::Migration[7.0]
+class InitWorld < ActiveRecord::Migration[8.1]
   def change
     create_table :users do |t|
       t.string :username
