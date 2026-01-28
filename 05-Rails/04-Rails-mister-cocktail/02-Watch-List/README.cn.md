@@ -83,8 +83,8 @@ rails generate simple_form:install --bootstrap
 
 ```bash
 rm -rf app/assets/stylesheets
-curl -L https://github.com/lewagon/rails-stylesheets/archive/rails-8.zip > stylesheets.zip
-unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-rails-8 app/assets/stylesheets
+curl -L https://github.com/lewagon/rails-stylesheets/archive/master.zip > stylesheets.zip
+unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-master app/assets/stylesheets
 ```
 
 创建 Sprockets manifest 文件（Rails 8 默认没有这个文件）：

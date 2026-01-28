@@ -83,8 +83,8 @@ Puis on va télécharger les feuilles de style du Wagon :
 
 ```bash
 rm -rf app/assets/stylesheets
-curl -L https://github.com/lewagon/rails-stylesheets/archive/rails-8.zip > stylesheets.zip
-unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-rails-8 app/assets/stylesheets
+curl -L https://github.com/lewagon/rails-stylesheets/archive/master.zip > stylesheets.zip
+unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-master app/assets/stylesheets
 ```
 
 Crée le fichier manifest de Sprockets (Rails 8 ne l'a pas par défaut) :
