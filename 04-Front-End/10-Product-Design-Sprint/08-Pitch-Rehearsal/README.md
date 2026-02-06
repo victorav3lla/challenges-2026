@@ -4,6 +4,13 @@ Time to prepare your pitch! In a few minutes you will be presenting your prototy
 
 But before that, make sure to do **one last clickthrough of your prototype** with a teacher.
 
+Make sure to update all the placeholder text from your components: it will help the audience better grasp the context of your product.
+You can also very easily add animations and transitions to your prototype to simulate filtering, form filling, etc...
+
+In the design world, all variants of a given Frame should be placed in the same column.
+
+![Add Variants of Screens](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/tjxo6qfutrqcq50iwk8e1lersw0z)
+
 For the pitch itself, you should determine:
 - Who will be standing in front of the class and pitch 🎤
 - Who will be behind the computer and click 👩‍💻

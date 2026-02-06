@@ -12,6 +12,10 @@ This sprint has several steps, all of which are key to come up with the best pro
 - Connect each frame to build a **prototype**
 - Add images, icons, colors and fonts
 
+This is an example of prototype you will be building today:
+
+![Final Product](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/50ec3vnjge6wtpatov1fde3folyw)
+
 ### Schedule of this sprint
 
 Here is the schedule:

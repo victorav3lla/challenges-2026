@@ -27,6 +27,8 @@ For example, with Airbnb:
 - **I want my user to:** search for a place to stay
 - **To do that, they need to:** specify their destination, travel dates, number of travelers
 
+![User Journey](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/j0xhy7gsg3dlu03hy71gqp6anrz2)
+
 To make your Core User Journey as efficient as possible, keep in mind some simple UX (User Experience) rules:
 - No more than **five pages** (you will lose users at each page!)
 - By the end of the Core Journey, your users should have answered their need (e.g. booked a place to stay)

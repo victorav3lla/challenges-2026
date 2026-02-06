@@ -11,6 +11,10 @@ In order to do that you'll need to define:
 - Your **differentiator(s)** (what makes your product unique)
 - And last but not least, you need to choose a **name** for your product
 
+Example of a UX Product Pitch for Airbnb:
+
+![UX PRoduct Pitch](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/c39p3mx0iz6kx3lf8r2rsab88cne)
+
 To work on this step as a team, we will be using the **collaborative whiteboard** feature of [Figma](https://www.figma.com/), **FigJAM**.
 
 Figma can be accessed through the browser, but we strongly recommend [downloading the desktop app](https://www.figma.com/downloads/).

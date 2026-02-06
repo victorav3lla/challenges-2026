@@ -27,3 +27,5 @@ So depending on how comfortable your team feels with Figma, you have two options
 So far, you have only been using the **FigJAM** feature of Figma. Let's dive into what Figma is famous for: its design feature!
 
 One team member should now create a new **Design** project and invite the rest of the team as collaborators.
+
+![Create a new Project](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/1ixbr1iogqlwg6pagzhtm5vdcjnu)
