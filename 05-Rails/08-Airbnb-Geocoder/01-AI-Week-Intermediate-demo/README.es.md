@@ -2,9 +2,9 @@
 
 En este punto, deberías tener usuarios y una primera funcionalidad que funciona usando una API LLM, con un system prompt operativo.
 
-Como viste durante la clase, ahora puedes **procesar archivos** y configurar ActiveStorage con Cloudinary para hacerlo.
+Hoy deberías agregar el comportamiento de conversación en tu app para permitir a los usuarios **hacer seguimiento** a una respuesta LLM, **manteniendo el contexto** de los mensajes anteriores.
 
-Asegúrate de usar el modelo correcto dependiendo del tipo de contenido del archivo, y de agregar las **validaciones** apropiadas en tu código para evitar procesar archivos demasiado grandes, para controlar tu consumo de API.
+También, a medida que las conversaciones crezcan, asegúrate de controlar el consumo de tokens con las barreras de protección apropiadas, y corrige el comportamiento molesto de desplazamiento respondiendo con **Turbo Streams** en lugar de una redirección.
 
 También, como viste durante la segunda clase, puedes refinar tu frontend y agregar **comportamiento interactivo en tu UI** con JavaScript, implementándolo con controladores Stimulus simples.
 

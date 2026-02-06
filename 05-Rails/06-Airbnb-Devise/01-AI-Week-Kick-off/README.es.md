@@ -127,9 +127,33 @@ Desde este punto pueden comenzar a dividir las tareas. **Dedica tiempo a la conf
 
 #### Inicio
 
-Al intentar dividir el trabajo en tu equipo, te darás cuenta de que muchas tareas dependen de otras... En la próxima sesión, aprenderás cómo colaborar como equipo usando git y Github.
+Ahora, pongamos al equipo a trabajar en el proyecto. El desarrollador principal ya ha creado la aplicación Rails, la ha subido a Github y la ha desplegado en Heroku.
 
-Mientras tanto, pueden comenzar a programar en pareja en algunas características principales de tu aplicación. Esta es una buena manera de comenzar y asegurarse de que todos están en la misma página. Aquí hay 3 ámbitos en los que pueden empezar a trabajar:
+#### Agrega a tus compañeros de equipo como colaboradores en el repo de Github
+
+Ve a la configuración de tu repo de Github (`https://github.com/<user.github_nickname>/rails-airbnb-clone/settings/collaboration`) y agrega a tus compañeros de equipo como **colaboradores**.
+
+Los otros compañeros de equipo ahora pueden **clonar** el proyecto:
+
+```bash
+gh repo clone <owner-github-nickname>/<rails-app-name>
+```
+
+Luego navega al directorio y ejecuta:
+
+```bash
+cd <rails-app-name>
+rails db:create db:migrate
+bundle install
+```
+
+Ahora pueden dividir su equipo en dos grupos para comenzar a programar en pareja en algunas características principales de tu aplicación. Esta es una buena manera de comenzar y asegurarse de que todos están en la misma página.
+
+Esta es una oportunidad para aprender sobre [Programación en pareja](https://es.wikipedia.org/wiki/Programaci%C3%B3n_en_pareja):
+
+> La programación en pareja es una técnica de desarrollo de software en la que dos programadores trabajan juntos en una estación de trabajo. Uno, el conductor, escribe código mientras que el otro, el observador o navegador, revisa cada línea de código a medida que se escribe. Los dos programadores intercambian roles con frecuencia.
+
+Aquí hay 3 ámbitos en los que pueden empezar a trabajar:
 
 **Ámbito 1: Configuración de Devise**:
 - Configura Devise y genera el modelo `User` con devise. ¡Asegúrate de usar `rails g devise User` (no `rails g model`)!
@@ -139,12 +163,21 @@ Mientras tanto, pueden comenzar a programar en pareja en algunas característica
 - Construye una página de inicio simple y atractiva con un container de Bootstrap, contenido centrado y una propuesta de valor clara.
 
 **Ámbito 3: Generación de modelos**:
+- _Nota: ¡Devise debe estar configurado primero! (Ámbito 1)_
 - Generar los otros tres modelos te permitirá dividir el trabajo más fácilmente después de la clase de **Programando en equipo**.
 
 **(Opcional) Ámbito 4: Acciones Read del modelo principal**:
 ¡Felicitaciones si llegas a este paso! Comencemos a programar las siguientes historias de usuario en el modelo principal de tu proyecto (reemplazando "ejercicios" con el tuyo):
 - Como visitante, puedo ver una lista de ejercicios para navegar al ejercicio que quiero explorar.
 - Como visitante, puedo hacer clic en un ejercicio para ver sus detalles
+
+Para cada ámbito en el que trabajes, no olvides:
+
+```bash
+git checkout -b <feature-name>
+```
+
+Y luego abrir un pull request en Github cuando hayas terminado.
 
 No olvides hacer deploy de tu trabajo en Heroku continuamente, y compartir tu URL de producción en Slack antes de irte.
 

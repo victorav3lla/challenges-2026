@@ -52,8 +52,8 @@ Pour créer facilement la carte et ajouter un marqueur dessus, on utilisera le [
 Pour l'installer et afficher la carte dans l'élement `#map`, tu dois ajouter ces lignes dans ton `index.html` :
 
 ```html
-<script src='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js'></script>
-<link href='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox-gl-js/v3.16.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v3.16.0/mapbox-gl.css' rel='stylesheet' />
 ```
 
 Puis ensuite, affiche la carte :

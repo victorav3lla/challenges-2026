@@ -1,5 +1,3 @@
-## AI Week - Kick-off
-
 You will spend the next sessions with your Project Group working on an AI Assistant for a **User** with a **Goal**. For instance, Wott is an AI Assistant for **students learning how to code**. You'll want to think about the "persona" of your core user ("student learning how to code") and their goal ("I'm stuck on a problem and want the AI to solve it for me"). This will help you define the scope of your app.
 
 Brainstorm with your group and create a ticket to validate your idea with a teacher.
@@ -99,6 +97,29 @@ gh repo create --public --source=.
 git push origin master
 ```
 
+##### Add your teammates as collaborators on the Github repo
+
+Go to your Github repo settings (`https://github.com/<user.github_nickname>/rails-airbnb-clone/settings/collaboration`) and add your teammates as **collaborators**.
+
+##### Clone the project
+
+The other teammates can now **clone** the project:
+
+```bash
+mkdir ~/code/<owner-github-nickname>
+cd ~/code/<owner-github-nickname>
+gh repo clone <owner-github-nickname>/<rails-app-name>
+```
+
+Then run:
+
+```bash
+cd <rails-app-name>
+rails db:create db:migrate
+bundle install
+```
+
+
 #### 3. Deploy on Heroku
 
 Even if it's just a skeleton app, it's important to deploy on Heroku **from day one**, and then continuously deploy every day with each new feature.
@@ -110,7 +131,7 @@ git push heroku master
 heroku run rails db:migrate
 ```
 
-### 4. GitHub Project
+#### 4. GitHub Project
 
 A [Kanban board](https://en.wikipedia.org/wiki/Kanban_board) is an agile project management tool designed to help visualize work, track progress, and maximize efficiency (or flow).
 
@@ -130,9 +151,17 @@ From this point you can start splitting the tasks. **Spend time on the setup, be
 
 #### Kick-off
 
-When trying to split work in your team, you'll realize that many tasks depend on other ones... In the next session, you will learn how to collaborate as a team using git and Github.
+Now, let's get the team started on the project. The lead developer has already created the Rails app, pushed it to Github, and deployed it on Heroku.
 
-In the meantime, you can start pair-programming on a few core features of your app. This is a good way to get started and to make sure you are all on the same page. Here are 3 scopes you can get start working on already:
+#### Coding as a team
+
+Now you can break your team into two groups to start pair-programming on a few core features of your app. This is a good way to get started and to make sure you are all on the same page.
+
+This is an opportunity to learn about [Pair programming](https://en.wikipedia.org/wiki/Pair_programming):
+
+> Pair programming is a software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently.
+
+Here are 3 scopes you can start working on already:
 
 **Scope 1: Devise setup**:
 - Setup Devise and generate the `User` model with devise. Make sure to use `rails g devise User` (not `rails g model`)!
@@ -142,12 +171,21 @@ In the meantime, you can start pair-programming on a few core features of your a
 - Build a simple, attractive home page with a Bootstrap container, centered content, and a clear proposition value.
 
 **Scope 3: Models generation**:
+- _Note: Devise must be setup first! (Scope 1)_
 - Generating the three other models will allow you to split the work up more easily after the **Coding as team** lecture.
 
 **(Optional) Scope 4: Core model Read actions**:
 Congratulations if you reach this step! Let's start coding the following user stories on your project's core model (replacing "challenges" with yours):
 - As a visitor, I can see a list of challenges to navigate to the challenge I want to explore.
 - As a visitor, I can click on a challenge to see its details
+
+For each scope you work on, don't forget:
+
+```bash
+git checkout -b <feature-name>
+```
+
+And then to open a pull request on Github when you are done.
 
 Don't forget to deploy your work on Heroku continuously, and to share your production URL on Slack before leaving.
 
@@ -171,7 +209,7 @@ When you work on a feature, work on it **conscientiously from the database to th
 - I will add two `new` and `create` actions in the `ChallengesController`
 
 *Views*:
-- I will code the challenge form in the a `views/challenges/new.html.erb`
+- I will code the challenge form in `views/challenges/new.html.erb`
 - The create action redirects to the `show` view, with a confirmation notice
 
 *Links*:

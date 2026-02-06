@@ -223,16 +223,16 @@ Then use this Object to build your `labels` and `data` arrays. Then, implement t
 ### 6. Implement the polar area chart
 ### 6. 实现极地区域图
 
-Let's have a look at the [Wikipedia](https://en.wikipedia.org/wiki/List_of_religious_populations) page about religious populations in the world.
-让我们来看看维基百科关于世界宗教人口的页面。
+Let's have a look at the [stats](https://www.britannica.com/topic/List-of-religious-populations#ref380920) page about religious populations in the world.
+让我们来看看关于世界宗教人口的[统计](https://www.britannica.com/topic/List-of-religious-populations#ref380920)页面。
 
 Let's select 10 out of these and build an Object out of it:
 让我们从中选择10个，并构建一个对象：
 
 ```javascript
 const worldReligions = {
-  "christianity": 2382000000,
-  // 该你了，现在填写对象的其余部分，直到2010年
+  "christianity": 2521460000,
+  // 该你了，现在填写对象的其余部分
 }
 ```
 

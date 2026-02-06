@@ -141,7 +141,7 @@ const App = () => {
   React.useEffect(() => {
     fetch('https://quotable.vercel.app/quotes')
       .then((response) => response.json())
-      .then((data) => setQuotes(data));
+      .then((data) => setQuotes(data.results));
   }, []);
 
   return (
@@ -199,8 +199,8 @@ React.useEffect(() => {
     fetch('https://quotable.vercel.app/quotes')
       .then((response) => response.json())
       .then((data) => {
-        setQuotes(data);
-        getNewQuote(data);
+        setQuotes(data.results);
+        getNewQuote(data.results);
       });
   }, []);
 ```
@@ -214,9 +214,9 @@ const Quote = ({ quote }) => {
   return (
     <div className="quote">
       <p className="quote-text">
-        <span>“</span>
-        {quote.text}
-        <span>“</span>
+        <span>"</span>
+        {quote.content}
+        <span>"</span>
       <p/>
       <span className="quote-author">- ${quote.author}</span>
     </div>
@@ -254,9 +254,9 @@ const Quote = ({ quote }) => {
   return (
     <div className="quote">
       <p className="quote-text">
-        <span>“</span>
-        {quote.text}
-        <span>“</span>
+        <span>"</span>
+        {quote.content}
+        <span>"</span>
       </p>
       <span className="quote-author">- ${quote.author}</span>
     </div>

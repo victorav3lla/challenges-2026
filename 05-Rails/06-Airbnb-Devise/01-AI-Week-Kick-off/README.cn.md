@@ -127,9 +127,33 @@ heroku run rails db:migrate
 
 #### 启动
 
-当尝试在团队中分配工作时，你会意识到许多任务依赖于其他任务...在下一节课中，你将学习如何使用 git 和 Github 作为团队协作。
+现在，让我们让团队开始项目工作。首席开发者已经创建了 Rails 应用，将其推送到 Github，并部署到 Heroku。
 
-与此同时，你可以开始在应用的几个核心功能上进行结对编程。这是一个很好的开始方式，并确保大家都在同一页面上。以下是你可以开始工作的 3 个范围：
+#### 将你的队友添加为 Github 仓库的协作者
+
+转到你的 Github 仓库设置（`https://github.com/<user.github_nickname>/rails-airbnb-clone/settings/collaboration`）并将你的队友添加为**协作者**。
+
+其他队友现在可以**克隆**项目：
+
+```bash
+gh repo clone <owner-github-nickname>/<rails-app-name>
+```
+
+然后导航到目录并运行：
+
+```bash
+cd <rails-app-name>
+rails db:create db:migrate
+bundle install
+```
+
+现在你可以将团队分成两组，开始在应用的几个核心功能上进行结对编程。这是一个很好的开始方式，并确保大家都在同一页面上。
+
+这是了解[结对编程](https://zh.wikipedia.org/wiki/%E7%BB%93%E5%AF%B9%E7%BC%96%E7%A8%8B)的机会：
+
+> 结对编程是一种软件开发技术，其中两名程序员在一个工作站上一起工作。一个是驾驶员，编写代码，而另一个是观察员或导航员，在输入时检查每一行代码。两名程序员经常交换角色。
+
+以下是你可以开始工作的 3 个范围：
 
 **范围 1：Devise 设置**：
 - 设置 Devise 并使用 devise 生成 `User` 模型。确保使用 `rails g devise User`（而不是 `rails g model`）！
@@ -139,12 +163,21 @@ heroku run rails db:migrate
 - 构建一个简单、有吸引力的主页，带有 Bootstrap 容器、居中内容和清晰的价值主张。
 
 **范围 3：模型生成**：
+- _注意：必须首先设置 Devise！（范围 1）_
 - 生成其他三个模型将使你在**团队编程**课程后更容易分配工作。
 
 **（可选）范围 4：核心模型读取操作**：
 恭喜你达到这一步！让我们开始在你项目的核心模型上编写以下用户故事（用你的替换"挑战"）：
 - 作为访客，我可以查看挑战列表，导航到我想要探索的挑战。
 - 作为访客，我可以点击一个挑战查看其详情
+
+对于你处理的每个范围，不要忘记：
+
+```bash
+git checkout -b <feature-name>
+```
+
+然后在完成后在 Github 上打开拉取请求。
 
 不要忘记持续将你的工作部署到 Heroku，并在离开前在 Slack 上分享你的生产 URL。
 

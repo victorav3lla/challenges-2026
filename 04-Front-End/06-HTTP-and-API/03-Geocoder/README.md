@@ -41,8 +41,8 @@ To display a Mapbox Map with a marker at the specified address, we'll use a seco
 To use it, add these lines in the `head` of your HTML file, so you can use Mapbox's JavaScript and CSS for your map:
 
 ```html
-<link href='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css' rel='stylesheet' />
-<script src='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v3.16.0/mapbox-gl.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox-gl-js/v3.16.0/mapbox-gl.js'></script>
 ```
 
 To add a map, you'll need an empty supporting HTML element. For instance:

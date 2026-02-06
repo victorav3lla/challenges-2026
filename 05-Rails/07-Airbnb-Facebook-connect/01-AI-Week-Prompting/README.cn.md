@@ -2,37 +2,6 @@
 
 在这个阶段，你应该已经在 Heroku 上部署了一个基础的 Rails 应用，并有一个核心模型。如果情况不是这样，请创建一个票据。
 
-### 分配工作
-现在你已经了解了如何使用 git 和 Github 在项目上作为团队协作，是时候在队友之间分配工作并开始在**分支**上工作了。
-
-#### 清理 master 分支
-首先，确保**首席开发者**已经提交并推送了第 1 天完成的所有工作到 Github：
-
-```bash
-git status # 检查有更改的文件
-git diff   # 查看更改并编辑文件以丢弃不需要的工作
-git add .  # 暂存所有更改
-git commit -m "<你的提交消息>" # 提交更改
-git push origin master
-```
-
-#### 将你的队友添加为 Github 仓库的协作者
-
-前往你的 Github 仓库设置（`https://github.com/<user.github_nickname>/rails-airbnb-clone/settings/collaboration`）并将你的队友添加为**协作者**。
-
-其他队友现在可以**克隆**项目：
-
-```bash
-gh repo clone <owner-github-nickname>/<rails-app-name>
-```
-
-然后导航到目录并运行：
-```bash
-cd <rails-app-name>
-rails db:create db:migrate
-bundle install
-```
-
 #### 为你的功能创建新分支
 
 记住你想通过构建用户故事来工作 💡 如果你试图让一个队友构建控制器而另一个队友分别构建视图，你不会有太多成功 😠 通常，完整地构建一个用户故事需要一个路由、一个控制器动作和一个视图。所以，是时候查看电子表格中列出的用户故事，确定你想首先构建哪些，然后将它们分配给你的队友开始编码：
@@ -51,7 +20,6 @@ code .
 在能够处理范围 1 和 3 之前，你需要在数据库中有核心模型的记录。你可以在 `rails console` 中创建记录，但拥有一个 seed 文件对开发非常有用。查看[这个教程](https://kitt.lewagon.com/knowledge/cheatsheets/rails_seeds?course_ats_slug=web)。
 
 **范围 1：Index + Show**
-
 - 作为访客，我可以看到挑战列表，导航到我想要探索的挑战。
 - 作为访客，我可以点击一个挑战查看其详情
 

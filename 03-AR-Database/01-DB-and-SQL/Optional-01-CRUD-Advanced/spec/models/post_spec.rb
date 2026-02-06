@@ -1,5 +1,5 @@
-gem 'activerecord', '~> 7.1.3.2'
-gem 'sqlite3', '~> 1.7.3'
+gem 'activerecord', '~> 8.1'
+gem 'sqlite3', '2.8.1'
 # ^ DO NOT CHANGE! This makes sure your system uses the correct versions of activerecord and sqlite3
 
 require_relative "../../app/models/post"
@@ -7,6 +7,7 @@ require "sqlite3"
 
 db_file_path = File.join(File.dirname(__FILE__), "../support/posts_spec.db")
 DB = SQLite3::Database.new(db_file_path)
+DB.results_as_hash = false
 
 describe Post do
   before(:each) do
@@ -113,10 +114,12 @@ describe Post do
     end
 
     it "should not remove other posts from the database" do
+      DB.results_as_hash = false
       before_destroy_post_count = DB.execute("SELECT COUNT(*) FROM `posts`")[0][0]
       id = rand(1..3)
       post = find(id)
       post.destroy
+      DB.results_as_hash = false
       after_destroy_post_count = DB.execute("SELECT COUNT(*) FROM `posts`")[0][0]
       expect(before_destroy_post_count - after_destroy_post_count).to eq(1)
     end

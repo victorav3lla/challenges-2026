@@ -6,7 +6,7 @@ const App = () => {
       {message}
     </div>
   );
-}
+};
 
 ReactDOM.render(
   <App />,

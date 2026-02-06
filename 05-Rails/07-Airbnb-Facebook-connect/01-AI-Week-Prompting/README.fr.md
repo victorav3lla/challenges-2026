@@ -2,37 +2,6 @@
 
 À ce stade, tu devrais déjà avoir une application Rails de base déployée sur Heroku, avec un modèle principal. Si ce n'est pas le cas, merci de créer un ticket.
 
-### Répartir le travail
-Maintenant que tu as vu comment collaborer en équipe sur un projet en utilisant git et Github, il est temps de répartir le travail entre tes coéquipiers et de commencer à travailler sur des **branches**.
-
-#### Nettoyer la branche master
-D'abord, assure-toi que le **développeur principal** a commité et poussé tout le travail terminé du jour 1 vers Github :
-
-```bash
-git status # vérifier les fichiers avec des changements
-git diff   # réviser les changements et éditer les fichiers pour abandonner le travail non désiré
-git add .  # indexer tous les changements
-git commit -m "<ton message de commit>" # commiter les changements
-git push origin master
-```
-
-#### Ajouter tes coéquipiers comme collaborateurs sur le repo Github
-
-Va dans les paramètres de ton repo Github (`https://github.com/<user.github_nickname>/rails-airbnb-clone/settings/collaboration`) et ajoute tes coéquipiers comme **collaborateurs**.
-
-Les autres coéquipiers peuvent maintenant **cloner** le projet :
-
-```bash
-gh repo clone <owner-github-nickname>/<rails-app-name>
-```
-
-Puis navigue vers le répertoire et exécute :
-```bash
-cd <rails-app-name>
-rails db:create db:migrate
-bundle install
-```
-
 #### Créer une nouvelle branche pour ta fonctionnalité
 
 Rappelle-toi que tu veux travailler en construisant des user stories 💡 Tu n'auras pas beaucoup de succès si tu essaies d'avoir un coéquipier qui construit les contrôleurs et un autre qui construit les vues séparément 😠 Habituellement, construire une user story jusqu'à son terme nécessitera une route, une action de contrôleur, et une vue. Donc, il est temps de regarder les user stories listées dans ton tableur, de déterminer lesquelles tu veux construire en premier, puis de les distribuer entre tes coéquipiers pour commencer à coder :
@@ -51,7 +20,6 @@ Une fois que ton équipe a généré les fichiers de modèle, vous devriez tous 
 Avant de pouvoir travailler sur les Périmètres 1 et 3, tu as besoin d'enregistrements de ton modèle principal dans ta base de données. Tu peux créer des enregistrements dans ta `rails console`, mais avoir un fichier de seed est très utile pour le développement. Consulte [ce tutoriel](https://kitt.lewagon.com/knowledge/cheatsheets/rails_seeds?course_ats_slug=web).
 
 **Périmètre 1 : Index + Show**
-
 - En tant que visiteur, je peux voir une liste de challenges pour naviguer vers le challenge que je veux explorer.
 - En tant que visiteur, je peux cliquer sur un challenge pour voir ses détails
 

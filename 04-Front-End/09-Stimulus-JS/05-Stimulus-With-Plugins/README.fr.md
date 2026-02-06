@@ -195,13 +195,13 @@ Ensuite, utilise cet objet pour construire tes tableaux `labels` et `data`. Ensu
 
 ### 6. Implémenter le graphique de l'aire polaire
 
-Jetons un coup d'œil à la [page](https://worldstatistics.net/the-largest-religions-in-the-world-2025/) sur les populations religieuses dans le monde.
+Jetons un coup d'œil à la [page](https://www.britannica.com/topic/List-of-religious-populations#ref380920) sur les populations religieuses dans le monde.
 
 Sélectionnons 10 d'entre elles et construisons un objet à partir de celles-ci :
 
 ```javascript
 const worldReligions = {
-  "christianity": 2437876925,
+  "christianity": 2521460000,
   // maintenant c'est à toi de compléter le reste de l'objet
 }
 ```

@@ -58,9 +58,9 @@ Para crear fácilmente el mapa y agregarle un marcador, agregaremos [Mapbox GL J
 Para mostrar un mapa en tu elemento HTML `#map` con Mapbox GL JS, deberás agregar estas líneas en tu `index.html`.
 
 ```html
-<script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.16.0/mapbox-gl.js"></script>
 <link
-  href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css"
+  href="https://api.mapbox.com/mapbox-gl-js/v3.16.0/mapbox-gl.css"
   rel="stylesheet"
 />
 ```

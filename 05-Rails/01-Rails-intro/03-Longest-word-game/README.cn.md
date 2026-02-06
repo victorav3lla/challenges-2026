@@ -168,6 +168,21 @@ class ApplicationSystemTestCase < ActionDispatch::SystemTestCase
   driven_by :headless_chrome
 end
 ```
+
+注意：由于与Rails 8.1的兼容性问题，你可能需要在你的`Gemfile`中添加以下内容：
+
+```ruby
+group :test do
+  # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
+  gem "capybara"
+  gem "selenium-webdriver"
+  # Pin minitest below 6.0 due to compatibility issue with Rails 8.1
+  gem "minitest", "< 6"
+  # 👆 ADD THIS
+end
+```
+
+
 准备好了？让我们开始Rails测试。
 
 在终端，运行以下代码来创建测试文件：

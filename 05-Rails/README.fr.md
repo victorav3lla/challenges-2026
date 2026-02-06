@@ -57,10 +57,14 @@ Conférence matinale en 2 parties :
 - Prompt Engineering. Tu apprendras à écrire des prompts efficaces pour les LLMs, une compétence clé pour orienter le comportement de ton Assistant IA.
 - Techniques de collaboration avec git & Github. Tu découvriras comment travailler en équipe dev avec des `branches` et des `pull requests`. C’est un système que tu utiliseras pour tous tes projets dev, alors sois attentif !
 
-### `08 Multi-modal Inference`
+### `08 Conversational UX`
 
 Conférence matinale en 2 parties :
-- Multi-modal Inference. Tu apprendras à envoyer des fichiers avec du texte à traiter par les LLMs.
+- Conversational UX : Permettre aux utilisateurs de donner suite à une première réponse du LLM en fournissant l'historique de la conversation au LLM. Tu apprendras à construire une UX conversationnelle dans ton app Rails en utilisant Turbo streams.
 - JavaScript dans Rails. Apprends à utiliser Stimulus et `importmap` pour implémenter des fonctionnalités JavaScript et utiliser des bibliothèques tierces dans Rails.
 
-Ensuite, chaque groupe devra présenter la version actuelle de son Assistant IA devant la class
+Ensuite, chaque groupe devra présenter la version actuelle de son Assistant IA devant la classe.
+
+### `09 Multi-modal Inference`
+
+Multi-modal Inference. Tu apprendras à envoyer des fichiers avec du texte à traiter par les LLMs.

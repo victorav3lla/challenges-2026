@@ -194,13 +194,13 @@ Luego, utiliza este objeto para construir tus arrays `labels` y `data`. Luego, i
 
 ### 6. Implementa el gráfico de área polar
 
-Echemos un vistazo a la [página](https://worldstatistics.net/the-largest-religions-in-the-world-2025/) sobre poblaciones religiosas en el mundo.
+Echemos un vistazo a la [página](https://www.britannica.com/topic/List-of-religious-populations#ref380920) sobre poblaciones religiosas en el mundo.
 
 Seleccionemos 10 de ellos y construyamos un objeto:
 
 ```javascript
 const worldReligions = {
-  christianity: 2437876925,
+  christianity: 2521460000,
   // ahora te toca completar el resto del objeto
 };
 ```

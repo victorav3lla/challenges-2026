@@ -141,19 +141,57 @@ Assurez-vous d'utiliser la [fonction d'assignation sur GitHub](https://docs.gith
 
 #### Lancement
 
-Quand tu veux répartir le travail dans ton équipe, tu te rendras compte que beaucoup de tâches dépendent d’autres... Lors de la prochaine session, tu apprendras à collaborer en équipe avec git et Github.
+Maintenant, mettons l'équipe au travail sur le projet. Le lead developer a déjà créé l'application Rails, l'a poussée sur Github et l'a déployée sur Heroku.
 
-En attendant, vous pouvez commencer à faire du pair programming sur quelques fonctionnalités clés de votre app. C’est un bon moyen de démarrer et de vous assurer que vous êtes tous alignés. Voici 3 points sur lesquels tu peux déjà commencer à travailler :
+#### Ajoute tes coéquipiers comme collaborateurs sur le repo Github
 
-**#1 - Setup Devise** :
-- Configure Devise et génère le modèle `User` avec devise.
-- Suis la conférence du matin pour ajouter la navbar, les pages d’inscription et de connexion (avec Bootstrap cols), et configure les filtres `before_action` et `skip_before_action`.
+Va dans les paramètres de ton repo Github (`https://github.com/<user.github_nickname>/rails-airbnb-clone/settings/collaboration`) et ajoute tes coéquipiers comme **collaborateurs**.
 
-**#2 - Kick-start Front-end** :
-- Construis une page d’accueil simple et attractive avec un container Bootstrap, un contenu centré, et une proposition de valeur claire.
+Les autres coéquipiers peuvent maintenant **cloner** le projet :
 
-**#3 - Actions du modèle principal** :
-- Génère ton modèle principal contextuel (par ex. `Challenge` pour Wott) avec les actions read (`index/show`) et create (`new/create`).
+```bash
+gh repo clone <owner-github-nickname>/<rails-app-name>
+```
+
+Ensuite, ils doivent naviguer dans le répertoire et lancer :
+
+```bash
+cd <rails-app-name>
+rails db:create db:migrate
+bundle install
+```
+
+Vous pouvez maintenant diviser votre équipe en deux groupes pour commencer à faire du pair programming sur quelques fonctionnalités clés de votre app. C'est un bon moyen de démarrer et de vous assurer que vous êtes tous alignés.
+
+C'est l'occasion d'en apprendre davantage sur le [Pair programming](https://fr.wikipedia.org/wiki/Programmation_en_bin%C3%B4me) :
+
+> La programmation en binôme est une technique de développement logiciel dans laquelle deux programmeurs travaillent ensemble sur un poste de travail. L'un, le conducteur, écrit le code tandis que l'autre, l'observateur ou navigateur, examine chaque ligne de code au fur et à mesure qu'elle est tapée. Les deux programmeurs échangent fréquemment les rôles.
+
+Voici 3 points sur lesquels tu peux déjà commencer à travailler :
+
+**Scope 1: Setup Devise** :
+- Configure Devise et génère le modèle `User` avec devise. Assure-toi d'utiliser `rails g devise User` (pas `rails g model`) !
+- Suis la conférence du matin pour ajouter la navbar, les pages d'inscription et de connexion (avec Bootstrap cols), et configure les filtres `before_action` et `skip_before_action`.
+
+**Scope 2: Kick-start Front-end** :
+- Construis une page d'accueil simple et attractive avec un container Bootstrap, un contenu centré, et une proposition de valeur claire.
+
+**Scope 3: Génération des modèles** :
+- _Note : Devise doit d'abord être configuré ! (Scope 1)_
+- Générer les trois autres modèles te permettra de répartir le travail plus facilement après la conférence **Coder en équipe**.
+
+**(Optionnel) Scope 4: Actions Read du modèle principal** :
+Félicitations si tu arrives à cette étape ! Commençons à coder les user stories suivantes sur le modèle principal de ton projet (en remplaçant "challenges" par le tien) :
+- En tant que visiteur, je peux voir la liste des challenges pour naviguer vers celui que je souhaite explorer.
+- En tant que visiteur, je peux cliquer sur un challenge pour voir ses détails
+
+Pour chaque scope sur lequel tu travailles, n'oublie pas :
+
+```bash
+git checkout -b <feature-name>
+```
+
+Et ensuite d'ouvrir une pull request sur Github quand tu as terminé.
 
 N’oublie pas de déployer ton travail en continu sur Heroku, et de partager ton URL de production sur Slack avant de partir.
 

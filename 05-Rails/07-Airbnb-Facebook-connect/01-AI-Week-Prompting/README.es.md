@@ -2,37 +2,6 @@
 
 En este punto, ya deberías tener una aplicación Rails básica desplegada en Heroku, con un modelo principal. Si este no es el caso, por favor crea un ticket.
 
-### Dividiendo el trabajo
-Ahora que has visto cómo colaborar como equipo en un proyecto usando git y Github, es hora de dividir el trabajo entre tus compañeros de equipo y comenzar a trabajar en **branches**.
-
-#### Limpiar la rama master
-Primero, asegúrate de que el **desarrollador principal** ha hecho commit y push de todo el trabajo terminado del día 1 a Github:
-
-```bash
-git status # verificar archivos con cambios
-git diff   # revisar cambios y editar archivos para descartar trabajo no deseado
-git add .  # preparar todos los cambios
-git commit -m "<tu mensaje de commit>" # hacer commit de los cambios
-git push origin master
-```
-
-#### Agregar a tus compañeros de equipo como colaboradores en el repo de Github
-
-Ve a la configuración de tu repo de Github (`https://github.com/<user.github_nickname>/rails-airbnb-clone/settings/collaboration`) y agrega a tus compañeros de equipo como **colaboradores**.
-
-Los otros compañeros de equipo ahora pueden **clonar** el proyecto:
-
-```bash
-gh repo clone <owner-github-nickname>/<rails-app-name>
-```
-
-Luego navega al directorio y ejecuta:
-```bash
-cd <rails-app-name>
-rails db:create db:migrate
-bundle install
-```
-
 #### Crear una nueva rama para tu función
 
 Recuerda que quieres trabajar construyendo historias de usuario 💡 No tendrás mucho éxito si intentas que un compañero construya los controladores y otro construya las vistas por separado 😠 Por lo general, construir una historia de usuario hasta completarla requerirá una ruta, una acción de controlador y una vista. Entonces, es hora de mirar las historias de usuario listadas en tu hoja de cálculo, determinar cuáles quieres construir primero, y luego distribuirlas entre tus compañeros de equipo para comenzar a programar:
@@ -51,7 +20,6 @@ Una vez que tu equipo haya generado los archivos del modelo, todos deberían pod
 Antes de poder trabajar en los Ámbitos 1 y 3, necesitas registros de tu modelo principal en tu base de datos. Puedes crear registros en tu `rails console`, pero tener un archivo seed es muy útil para el desarrollo. Consulta [este tutorial](https://kitt.lewagon.com/knowledge/cheatsheets/rails_seeds?course_ats_slug=web).
 
 **Ámbito 1: Index + Show**
-
 - Como visitante, puedo ver una lista de ejercicios para navegar al ejercicio que quiero explorar.
 - Como visitante, puedo hacer clic en un ejercicio para ver sus detalles
 

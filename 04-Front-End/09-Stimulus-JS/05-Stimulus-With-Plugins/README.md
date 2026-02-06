@@ -202,14 +202,14 @@ Then use this Object to build your `labels` and `data` arrays. Then, implement t
 
 ### 6. Implement the polar area chart
 
-Let's have a look at the [stats](https://worldstatistics.net/the-largest-religions-in-the-world-2025/) page about religious populations in the world.
+Let's have a look at the [stats](https://www.britannica.com/topic/List-of-religious-populations#ref380920) page about religious populations in the world.
 
 Let's select 10 out of these and build an Object out of it:
 
 ```javascript
 const worldReligions = {
-  "christianity": 2437876925,
-  // your turn now to fill the rest of the object until 2010
+  "christianity": 2521460000,
+  // your turn now to fill the rest of the object 
 }
 ```
 

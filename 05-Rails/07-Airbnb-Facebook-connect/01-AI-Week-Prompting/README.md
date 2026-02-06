@@ -1,37 +1,4 @@
-## AI Week - Keep building
-
 At this point, you should already have a basic Rails app deployed on Heroku, with one core model. If this is not the case, please create a ticket.
-
-### Splitting the work up
-Now that you have seen how to collaborate as a team on a project using git and Github, it's time to split the work up among your teammates and start working on **branches**.
-
-#### Clean up the master branch
-First, make sure the **lead developer** has committed and pushed all the finished work from day 1 to Github:
-
-```bash
-git status # check files with changes
-git diff   # review changes and edit files to discard unwanted work
-git add .  # stage all changes
-git commit -m "<your commit message>" # commit the changes
-git push origin master
-```
-
-#### Add your teammates as collaborators on the Github repo
-
-Go to your Github repo settings (`https://github.com/<user.github_nickname>/rails-airbnb-clone/settings/collaboration`) and add your teammates as **collaborators**.
-
-The other teammates can now **clone** the project:
-
-```bash
-gh repo clone <owner-github-nickname>/<rails-app-name>
-```
-
-Then navigate to the directory and run:
-```bash
-cd <rails-app-name>
-rails db:create db:migrate
-bundle install
-```
 
 #### Create a new branch for your feature
 
@@ -51,7 +18,6 @@ Once your team has generated the model files, you should all be able to start bu
 Before being able to work on Scope 1 and 3, you need records of your core model in your database. You can create records in your `rails console`, but having a seed file is very useful for development. Check out [this tutorial](https://kitt.lewagon.com/knowledge/cheatsheets/rails_seeds?course_ats_slug=web).
 
 **Scope 1: Index + Show**
-
 - As a visitor, I can see a list of challenges to navigate to the challenge I want to explore.
 - As a visitor, I can click on a challenge to see its details
 

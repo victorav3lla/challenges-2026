@@ -55,8 +55,8 @@ serve
 要在你的`#map` HTML元素中使用Mapbox GL JS显示地图，你需要在你的`index.html`中添加这些行：
 
 ```html
-<script src='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js'></script>
-<link href='https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css' rel='stylesheet' />
+<script src='https://api.mapbox.com/mapbox-gl-js/v3.16.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v3.16.0/mapbox-gl.css' rel='stylesheet' />
 ```
 
 然后显示地图：
