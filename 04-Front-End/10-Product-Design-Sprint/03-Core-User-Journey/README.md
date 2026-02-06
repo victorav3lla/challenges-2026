@@ -11,7 +11,7 @@ For most modern web applications, the core journey checks one or both of these b
 - It **addresses your target users' need**
 - It generates **revenue**
 
-On FigJAM, in the **UX Research Template**, write down your Core User Journey in the top-right box.
+On FigJam, in the **UX Research Template**, write down your Core User Journey in the top-right box.
 
 ### Mapping out a User Journey
 
@@ -34,8 +34,10 @@ To make your Core User Journey as efficient as possible, keep in mind some simpl
 - By the end of the Core Journey, your users should have answered their need (e.g. booked a place to stay)
 - No **Multiple Choice Journeys** - It is a straight line
 
+**Important Note:** For today's exercise, you do not need to build a login screen. You can either assume that your user is already logged in, or that they do not need to login to use your application.
+
 ### Your turn!
 
-Go back to the **UX Research Template** on FigJAM and map out your Core User Journey, page by page.
+Go back to the **UX Research Template** on FigJam and map out your Core User Journey, page by page.
 
 When you are done, make sure to **call a teacher** to validate your core user journey.
