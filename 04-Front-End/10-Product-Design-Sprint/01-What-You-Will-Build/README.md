@@ -4,7 +4,7 @@ This Product Design Sprint is a critical step for your final project, as you wil
 
 ### Objective
 
-This sprint has several steps, all of which are key to come up with the best prototype. However, keep in mind the end goal: ship a **working prototype** and **pitch it** in front of your classmates. To do so, you will have to:
+This sprint has several steps, all of which are key to come up with the best prototype. However, keep the end goal in mind: to ship a **working prototype** and **pitch it** in front of your classmates. To do so, you will have to:
 
 - **Scope** your product
 - Identify your **Core User Journey**
