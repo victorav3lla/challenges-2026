@@ -45,7 +45,7 @@ Most components are customizable, and you will be able to edit the placeholder t
 
 ![Editing Components](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/hzd3yotgtp1kj646ivbvwfi6l1pi)
 
-Figma's Design System also comes with different built-in font sizes and weights. Make use of it!
+Figma's Design System also comes with different built-in font sizes and weights. Make use of them!
 
 ![Adding Text](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/jollhbus1iuspbc5wqmcj24qexq8)
 
