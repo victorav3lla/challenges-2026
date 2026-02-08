@@ -38,4 +38,8 @@ By the end of today, you will:
 
 Every step is important, that's why **you should validate each one with a teacher**.
 
+Here'a a sample of the kind of design you'll try to develop by the end of the day:
+
+![Gif animation of a final prototype showing an Airbnb-style home page, a list of flats, details for a flat, and a booking feature](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/d88p1frhcmw6e3kg6gtx1t8dotyk)
+
 Good luck!
