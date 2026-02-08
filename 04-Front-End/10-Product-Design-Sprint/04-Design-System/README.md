@@ -18,9 +18,7 @@ In short, think of it as the **Single Source of Truth** for design and developme
 ### Choose your Design System
 
 Building a Design System from scratch is a big endeavour and cannot be done during this Product Sprint.
-So depending on how comfortable your team feels with Figma, you have two options today:
-1. Use the built-in Figma's Simple Design System: it looks standard, but it will make your life easier if it is your first time with Figma
-1. **(⚠️ Figma Power Users ONLY)** Use another Design System - here are some that we like: [Untitled UI](https://www.figma.com/community/file/1020079203222518115), [Chakra UI](https://www.figma.com/community/file/1506648876941130701), [Shadcn kit](https://ui.shadcn.com/docs/figma), [Daisy UI](https://daisyui.com/store/daisyui-figma-library/)
+So depending on how comfortable your team feels with Figma, you have two options today. So, you'll want to use the built-in Figma's Simple Design System. It looks standard, but it will make your life easier if it is your first time with Figma. And we'll customize the way it looks later 🎨 
 
 ### Create your Design project in Figma
 
