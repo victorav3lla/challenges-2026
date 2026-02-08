@@ -1,7 +1,7 @@
 ## Wireframe (1h30)
 
 Now that you know which Design System to use, it's time to look back at your Core User Journey and create your wireframe based on it.
-The goal is to create a lo-fi mockup for each screen of your product: you should not worry about colors, fonts, images or icons at this stage.
+The goal is to create a lo-fi mockup for each screen of your product: you should not worry about colors, fonts, images or icons at this stage. Focus on questions like: Where do we need to have a button? What should happen when you click on it?
 
 **⚠️ Important:** When designing each screen, keep in mind all the work you have done so far.
 - What **single action** do you want your user to take on each page?
