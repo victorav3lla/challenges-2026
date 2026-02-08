@@ -15,7 +15,7 @@ On FigJam, in the **UX Research Template**, write down your Core User Journey in
 
 ### Mapping out a User Journey
 
-In modern web applications, several tasks can be done by users, through different journeys. Some of these tasks are common to all products (signing up, signing in, editing your profile, etc.) and others are specific to each application. The **common ones should not be included in your prototype** at this stage, but will be part of your final product.
+In modern web applications, several tasks can be done by users, through different journeys. Some of these tasks are common to nearly all products (signing up, signing in, editing your profile, etc.) and others are specific to each application. The **sign-in/sign-up flows do not be included in your prototype** at this stage, but will be part of your final product. We'll be using a Ruby gem to manage them, so you don't need to spend time on them during this design sprint.
 
 Now that you have identified your Core User Journey, you will be able to map it out by identifying:
 - Which **pages** (or screens) your user will navigate through
