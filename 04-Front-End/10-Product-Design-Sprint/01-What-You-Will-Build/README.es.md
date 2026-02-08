@@ -1,34 +1,45 @@
 ## Lo que crearás
 
-Este sprint de diseño es una etapa primordial para tu proyecto ya que crearás tu **prototipo de baja fidelidad en blanco y negro**. Esto será tu punto de partida para comenzar a escribir códigos en las semanas de proyectos.
-
-![Aquí hay una muestra del sprint](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_stakes_of_day_2.gif)
+Este Product Design Sprint es una etapa fundamental para tu proyecto final, ya que crearás un **prototipo** que será tu punto de partida cuando comiences a programar en las semanas de proyecto.
 
 ### Objetivo
 
-Este sprint tiene varias etapas y todas son muy importantes para poder crear el mejor prototipo para tu Demo. No pierdas la visión global del ejercicio y recuerda que la meta es terminar el **prototipo de baja fidelidad en blanco y negro** y presentárselo a tus compañeros. Para ello deberás hacer lo siguiente:
+Este sprint tiene varias etapas, todas ellas clave para crear el mejor prototipo posible. Sin embargo, no pierdas de vista el objetivo final: entregar un **prototipo funcional** y **presentarlo** frente a tus compañeros. Para lograrlo, deberás:
 
-- **Define** tu producto
-- Identifica tu **Core User Journey** (el proceso principal de compra de tu producto)
-- Crea un Kit UI en Figma y termina tu **prototipo de baja fidelidad en blanco y negro**
+- **Definir el alcance** de tu producto
+- Identificar tu **Core User Journey** (recorrido principal del usuario)
+- Trabajar en Figma para crear un **Wireframe**
+- Conectar cada pantalla para crear un **prototipo**
+- Agregar imágenes, íconos, colores y fuentes
 
-### Organización del sprint
+Este es un ejemplo del prototipo que crearás hoy:
 
-Aquí está la agenda a seguir:
+![Producto final](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/50ec3vnjge6wtpatov1fde3folyw)
+
+### Agenda del sprint
+
+Aquí está la agenda:
 
 1. Define tu **Product Pitch** (~30min)
-1. Encuentra tu **Core User Journey** (~30min)
-1. Haz un esquema de tu **User Flow** (~15min)
-1. Crea un **Kit UI Básico** (~30min)
-1. Agrega **componentes avanzados** a tu Kit UI (~30min)
-1. Crea un **Wireframe** (~1h)
-1. Transforma tu wireframe en un **Prototipo** (~15min)
-1. **Prepara tu pitch** (el tiempo que queda)
+1. Identifica tu **Core User Journey** (~30min)
+1. Crea un **Wireframe** (~1h30)
+1. Transforma tu wireframe en un **Prototipo** (~30min)
+1. Agrega tu **identidad visual**: imágenes, íconos, colores y fuentes (~30min)
+1. Prueba con un clickthrough y **prepara tu pitch** (~30min)
+1. Y por último... ¡**Presenta tu prototipo** frente a la clase!
 
-Tienes una limitación de tiempo así que no tardes en comenzar y trata de respetar los estimados de tiempo que te damos. Como mínimo deberías **terminar tu Kit UI Básico antes del break**.
+El día pasa rápido, se llama sprint por algo. Asegúrate de finalizar los pasos de **Product Pitch** y **Core User Journey** antes del almuerzo.
 
-Te recordamos nuevamente que tu Kit UI y tu Wireframe deben estar en **blanco y negro solamente**. No queremos ver ningún color o identidad visual en este momento.
+Hoy es un hito muy importante ya que es el inicio de la aplicación que crearás durante la última fase del bootcamp. ¡También es la primera vez que trabajas en equipo!
 
-Esta etapa es un hito muy importante porque es el inicio de la app que crearás en el transcurso de las 2 últimas semanas del bootcamp. Cada paso que des es importante. Por eso **debes validar cada uno de ellos con un TA**.
+Al final del día, habrás logrado:
+- Tener una idea más clara del producto final que crearás en equipo
+- Entender cómo usar Figma en tus futuros roles profesionales
+
+Cada paso es importante, por eso **debes validar cada uno con un profesor**.
+
+Aquí tienes un ejemplo del tipo de diseño que desarrollarás para el final del día:
+
+![Animación gif de un prototipo final mostrando una página de inicio estilo Airbnb, una lista de apartamentos, detalles de un apartamento y una función de reserva](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/d88p1frhcmw6e3kg6gtx1t8dotyk)
 
 ¡Buena suerte!

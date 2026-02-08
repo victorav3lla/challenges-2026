@@ -1,31 +1,60 @@
-## Maquette fonctionnelle (1 h)
+## Wireframe (1h30)
 
-Il est temps de reprendre ton flux utilisateur et de créer ta maquette fonctionnelle en t'aidant de ton kit UI. L'objectif ici est de créer une maquette faible fidélité pour chaque écran de ton produit.
+Maintenant que tu sais quel Design System utiliser, il est temps de revenir à ton Core User Journey et de créer ton wireframe basé dessus.
+L'objectif est de créer une maquette lo-fi pour chaque écran de ton produit : tu ne dois pas te soucier des couleurs, polices, images ou icônes à ce stade. Concentre-toi sur des questions comme : Où devons-nous avoir un bouton ? Que doit-il se passer quand on clique dessus ?
 
-Commence par créer une nouvelle page sur Figma et ajoute un nouveau cadre dessus. Tu peux dessiner un rectangle sur ton nouveau cadre et le centrer pour mettre des marges de chaque côté (coche 'Rulers' dans le menu Figma/View):
+**⚠️ Important :** Lors de la conception de chaque écran, garde en tête tout le travail que tu as fait jusqu'ici.
+- Quelle **action unique** veux-tu que ton utilisateur effectue sur chaque page ?
+- De quel **contexte** a-t-il besoin pour effectuer cette action ?
 
-![Ajouter des marges de chaque côté du cadre](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_wireframe_create_frame_with_margins.gif)
+### Crée ton premier écran
 
-> Tu peux supprimer le rectangle une fois que les marges sont bien placées
+Dans ton projet Design nouvellement créé, commence par créer une nouvelle `Page`, renomme-la correctement (par exemple Prototype) et ajoute un nouveau `Frame` dedans.
 
-Une fois que ton écran est créé, tu n'as qu'à le dupliquer avec un copier/coller. De cette façon, chaque écran conservera les mêmes marges. Crée autant d'écrans sur Figma que ceux de ton flux utilisateur.
+![Créer et renommer un Frame](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/qwhhketywccd4es2zr442un7r7of)
 
-![Dupliquer un cadre pour conserver les marges](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_wireframe_duplicate_screen.gif)
+Tu peux soit ajouter des marges de `80px` de chaque côté du frame, soit utiliser un [Layout Grid](https://help.figma.com/hc/en-us/articles/360040450513-Create-layout-grids-with-grids-columns-and-rows).
 
-> **Fais attention ici** : Il est très important que tu **crées un frame (cadre) Figma pour chaque écran** de ton application. Si tu n'es pas sûr de ta configuration, demande à un prof de la vérifier.
+![Ajouter une grille ou des marges](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/5lu4v28a2gc56uyqnt3l6vrh54tz)
 
-Une fois que tous les écrans ont été créés, chaque membre de ton équipe peut s'occuper d'un écran (vous pouvez aussi travailler en paires).
+Une fois ton premier écran créé, tu peux simplement le dupliquer avec `ctrl+D` ou `Cmd+D` (D pour "duplicate"). De cette façon, chaque écran conservera les mêmes marges. Crée autant d'écrans sur Figma que tu en as dans ton Core User Journey.
 
-### Utilise la fonction Grid de Figma
+**Fais attention ici** : il est très important que tu crées un `Frame` Figma pour chaque **écran** de ton app. Si tu n'es pas sûr de ta configuration, appelle un prof pour la valider.
 
-À ce stade, tu auras peut-être besoin de créer une grid (grille) en fonction de ton projet.
+Une fois tous les écrans créés, chaque membre de ton équipe peut s'occuper d'un écran (vous pouvez aussi travailler en binôme).
 
-Si c'est le cas, la **fonction Grid** de Figma peut t'être utile. Voici les étapes à suivre :
+**🧠 Astuce pro Figma :**
+`Cmd+D` / `ctrl+D` est le raccourci **Dupliquer** - c'est ton meilleur ami
 
-1. Commence par mettre toutes les cards (cartes) dont tu as besoin sur ton écran sans t'occuper de l'alignement.
-1. Une fois que c'est fait, sélectionne toutes les cards (cartes) et clique sur l'icône bleue qui apparaîtra en bas à droite de ta sélection.
-1. Laisse la magie de Figma opérer ! Elle alignera automatiquement tous les éléments que tu as sélectionnés et te permettra d'adapter la taille, l'alignement et l'espace entre les éléments.
+![Utiliser Dupliquer](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/elstqksbxtrkyy9qeuyv9u2x7c3t)
 
-Voici un exemple d'utilisation de la fonction Grid de Figma :
+![Dupliquer un Frame entier](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/1q7bjg1dtni3ll8ed2pghohcrdj3)
 
-![Fonction Grid de Figma](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_wireframe_grid.gif)
+### Utiliser les composants
+
+En plus d'offrir une source unique de vérité pour le design, travailler avec un Design System te donne accès à une bibliothèque étendue de composants que tu peux simplement glisser-déposer.
+
+![Ajouter des composants](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/36kn7yyhnylm1zoo4z19j6icj3gv)
+
+Quelques composants typiques que tu peux rechercher :
+- Button
+- Input
+- Card
+
+La plupart des composants sont personnalisables, et tu pourras modifier le texte placeholder, changer son état, ou ajouter des images par exemple.
+
+![Modifier les composants](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/hzd3yotgtp1kj646ivbvwfi6l1pi)
+
+Le Design System de Figma inclut également différentes tailles et épaisseurs de police intégrées. Utilise-les !
+
+![Ajouter du texte](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/jollhbus1iuspbc5wqmcj24qexq8)
+
+Une fois que tu maîtrises le Design System, tu pourras très rapidement construire ton wireframe en glissant-déposant des composants :
+
+![Glisser-déposer des composants](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/d3eq80ghf71lktftk3k8vpnyhorx)
+
+### Auto-layout
+
+Figma offre également des fonctionnalités de mise en page avancées pour t'aider à construire des designs encore plus rapidement, dont l'auto-layout.
+
+![Auto Layout](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/wpeu0aax3he3eylvi7wl90xoy5tf)

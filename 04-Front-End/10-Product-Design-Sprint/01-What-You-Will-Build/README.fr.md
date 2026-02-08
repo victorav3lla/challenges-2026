@@ -1,34 +1,45 @@
 ## Ce que tu vas construire
 
-Ce design sprint est une étape cruciale dans ton projet, car tu vas construire ton **prototype basse fidélité en noir et blanc**, qui sera ton point de départ pour commencer à coder pendant les semaines projet.
-
-![Enjeu du sprint](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_stakes_of_day_2.gif)
+Ce Product Design Sprint est une étape cruciale pour ton projet final, car tu vas construire un **prototype** qui sera ton point de départ pour commencer à coder pendant les semaines projet.
 
 ### Objectif
 
-Ce sprint se compose de plusieurs étapes, qui sont toutes essentielles pour créer le meilleur prototype possible pour ta démo. Pour autant, ne perds pas la vue d'ensemble et souviens-toi que l'objectif est d'envoyer le **prototype lo-fi en noir et blanc** et de le présenter à tes camarades. Pour ce faire, tu vas devoir :
+Ce sprint se compose de plusieurs étapes, qui sont toutes essentielles pour créer le meilleur prototype possible. Garde l'objectif final en tête : livrer un **prototype fonctionnel** et le **pitcher** devant tes camarades. Pour ce faire, tu vas devoir :
 
-- **déterminer la portée** de ton produit ;
-- identifier ton **parcours utilisateur** ;
-- travailler sur Figma pour créer un kit UI et enfin ton **prototype lo-fi**.
+- **Définir le scope** de ton produit
+- Identifier ton **Core User Journey** (parcours utilisateur principal)
+- Travailler sur Figma pour créer un **Wireframe**
+- Connecter chaque écran pour créer un **prototype**
+- Ajouter des images, icônes, couleurs et polices
+
+Voici un exemple du prototype que tu vas construire aujourd'hui :
+
+![Produit final](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/50ec3vnjge6wtpatov1fde3folyw)
 
 ### Programme de ce sprint
 
 Voici le programme :
 
-1. Définis ton **pitch produit** (~30 min)
-1. Détermine ton **parcours utilisateur** (~30 min)
-1. Esquisse ton **flux utilisateur** (~15 min)
-1. Crée un **kit UI basique** (~30 min)
-1. Ajoute des **composants avancés** à ton kit UI (~30 min)
-1. Crée une **maquette fonctionnelle** (~1 h)
-1. Transforme ta maquette fonctionnelle en **prototype** (~15 min)
-1. **Prépare ton pitch** (temps restant)
+1. Définis ton **Product Pitch** (~30 min)
+1. Identifie ton **Core User Journey** (~30 min)
+1. Crée un **Wireframe** (~1h30)
+1. Transforme ton wireframe en **Prototype** (~30 min)
+1. Ajoute ton **identité visuelle** : images, icônes, couleurs et polices (~30 min)
+1. Teste avec un clickthrough et **prépare ton pitch** (~30 min)
+1. Et enfin... **Pitche ton prototype** devant la classe !
 
-Le timing est serré, alors ne mets pas trop longtemps à te lancer et essaie de respecter les délais indiqués. Tu dois au moins avoir **terminé ton kit UI basique avant la pause**.
+La journée passe vite, c'est un sprint pour une bonne raison. Assure-toi de finaliser les étapes **Product Pitch** et **Core User Journey** avant la pause déjeuner.
 
-Une fois encore, souviens-toi que ton kit UI et ta maquette fonctionnelle doivent être en **noir et blanc seulement**. Inutile d'ajouter de la couleur ou une identité visuelle à ce stade.
+Aujourd'hui est un jalon très important car c'est le début de l'application que tu vas construire pendant la dernière phase du bootcamp. C'est aussi la toute première fois que tu travailles en équipe !
 
-Ce jalon est très important, car il marque le début de l'application que tu vas créer pendant les 2 dernières semaines du bootcamp. Chaque étape est importante, **tu dois donc toutes les vérifier avec le prof**.
+À la fin de la journée, tu auras :
+- Une idée plus claire du produit final que tu vas construire en équipe
+- Une compréhension de comment utiliser Figma dans tes futurs rôles
+
+Chaque étape est importante, c'est pourquoi **tu dois valider chacune d'entre elles avec un prof**.
+
+Voici un exemple du type de design que tu vas développer d'ici la fin de la journée :
+
+![Animation gif d'un prototype final montrant une page d'accueil style Airbnb, une liste d'appartements, les détails d'un appartement, et une fonctionnalité de réservation](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/d88p1frhcmw6e3kg6gtx1t8dotyk)
 
 Bonne chance !

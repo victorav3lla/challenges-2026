@@ -1,31 +1,55 @@
-## Maquette fonctionnelle (1 h)
+## UI Design (30 min)
 
-Il est temps de reprendre ton flux utilisateur et de créer ta maquette fonctionnelle en t'aidant de ton kit UI. L'objectif ici est de créer une maquette faible fidélité pour chaque écran de ton produit.
+Il est temps d'ajouter la touche finale à ton prototype sous forme de Visual Design !
 
-Commence par créer une nouvelle page sur Figma et ajoute un nouveau cadre dessus. Tu peux dessiner un rectangle sur ton nouveau cadre et le centrer pour mettre des marges de chaque côté (coche 'Rulers' dans le menu Figma/View):
+Tu peux ajuster plusieurs aspects pour que ton prototype ressemble le plus possible à une vraie application web :
+- Images
+- Polices
+- Couleurs
+- Icônes
 
-![Ajouter des marges de chaque côté du cadre](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_wireframe_create_frame_with_margins.gif)
+### Ajouter des images
 
-> Tu peux supprimer le rectangle une fois que les marges sont bien placées
+Il existe deux façons principales d'ajouter des images dans ton design Figma :
+- Utiliser le plugin Unsplash
 
-Une fois que ton écran est créé, tu n'as qu'à le dupliquer avec un copier/coller. De cette façon, chaque écran conservera les mêmes marges. Crée autant d'écrans sur Figma que ceux de ton flux utilisateur.
+![Ajouter des images avec Unsplash](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/dx60ylrisk12qew5rzxhver6r77r)
 
-![Dupliquer un cadre pour conserver les marges](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_wireframe_duplicate_screen.gif)
+- Télécharger et ajouter une image manuellement
 
-> **Fais attention ici** : Il est très important que tu **crées un frame (cadre) Figma pour chaque écran** de ton application. Si tu n'es pas sûr de ta configuration, demande à un prof de la vérifier.
+Tu peux même modifier plusieurs images en même temps !
 
-Une fois que tous les écrans ont été créés, chaque membre de ton équipe peut s'occuper d'un écran (vous pouvez aussi travailler en paires).
+![Modifier plusieurs images](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/96xt11f7mqymprmeum3bwq5pnecl)
 
-### Utilise la fonction Grid de Figma
+### Ajouter des icônes
 
-À ce stade, tu auras peut-être besoin de créer une grid (grille) en fonction de ton projet.
+Maintenant que tu es un expert front-end, tu connais la meilleure ressource pour télécharger des icônes gratuites : [FontAwesome](https://fontawesome.com) est ton meilleur ami ici aussi.
+Télécharge une icône de ton choix, glisse-dépose-la dans Figma et voilà !
 
-Si c'est le cas, la **fonction Grid** de Figma peut t'être utile. Voici les étapes à suivre :
+Tu peux aussi trouver et ajouter des icônes directement depuis le Design System.
 
-1. Commence par mettre toutes les cards (cartes) dont tu as besoin sur ton écran sans t'occuper de l'alignement.
-1. Une fois que c'est fait, sélectionne toutes les cards (cartes) et clique sur l'icône bleue qui apparaîtra en bas à droite de ta sélection.
-1. Laisse la magie de Figma opérer ! Elle alignera automatiquement tous les éléments que tu as sélectionnés et te permettra d'adapter la taille, l'alignement et l'espace entre les éléments.
+![Ajouter des icônes depuis le Design System](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/acwa88e49x2ximbcbduyk3a6go7m)
 
-Voici un exemple d'utilisation de la fonction Grid de Figma :
+### Ajuster le contraste d'une image avec un dégradé
 
-![Fonction Grid de Figma](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_wireframe_grid.gif)
+Dans certains cas, les images ont un contraste élevé, ce qui peut rendre le texte au-dessus difficile à lire. Une astuce de designer est d'ajouter un dégradé par-dessus cette image pour améliorer la visibilité.
+
+![Ajouter un dégradé](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/n74jtxuuiibv608i5a7dy8pswm7a)
+
+### Polices et couleurs
+
+Utiliser le Simple Design System de Figma a certaines limitations, et la mise à jour des polices et couleurs en fait partie. C'est possible de le faire, mais tu perds les avantages d'un Design System.
+
+Pour aujourd'hui, nous recommandons :
+- Un maximum de 2 ou 3 familles de polices
+- Un maximum de 2 ou 3 couleurs différentes, utilisées avec parcimonie
+
+Si tu souhaites modifier une police spécifique, tu devras la "détacher" du Design System. Note que c'est une solution de contournement **pour aujourd'hui seulement**.
+
+![Modifier la police](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/b7p0baosjrifnpcpecwuq04kuakj)
+
+De même, si tu souhaites utiliser des couleurs spécifiques pour des boutons ou d'autres composants, tu devras les "détacher" du Design System.
+
+![Modifier la couleur du bouton](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/le2jul8i7gkjp4wqnmzb7z0x4rk4)
+
+**Conseil de pro Design :** Utilise les polices et les couleurs avec intention, pour attirer l'attention de ton utilisateur sur une action donnée par exemple !

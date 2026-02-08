@@ -1,12 +1,20 @@
-## Prototype (15 min)
+## Prototype (30 min)
 
-Il est temps de transformer ta maquette fonctionnelle en un prototype fonctionnel. À ce stade, tous tes écrans doivent être termínés. Ne te lance pas dans cette étape si tu n'as pas fini de créer tous les écrans.
+Il est temps de transformer ton wireframe en un prototype fonctionnel !
 
-Pour connecter chaque écran, va dans l'onglet `Prototype` dans le panneau droit. Puis connecte chaque bouton à l'écran auquel tu souhaites accéder quand tu cliques dessus. Voici un exemple :
+Pour connecter chaque écran (ou `Frame`), va dans l'onglet `Prototype` du panneau de droite. Tu peux ensuite connecter un composant à un Frame.
+Figma offre *beaucoup* de façons différentes d'animer la transition entre un Frame et le suivant - N'hésite pas à les explorer !
 
-![Connecter des écrans sur Figma](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_prototype_connect_frames.gif)
+**Note importante :** Tu ne peux connecter un `Frame` qu'à un autre `Frame`
 
-Une fois que tous tes écrans sont connectés, tu peux lancer le mode démo et essayer de cliquer sur les boutons liés à un écran pour prévisualiser ton application.
+![Connecter les Frames](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/btxjmjlc1rnd3kffcocay7pzqkrt)
 
-![Connecter des écrans sur Figma](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_prototype_launch_demo.gif)
+Tu devrais connecter les premiers Frames de ton Core User Journey dès qu'ils sont prêts et tester ton prototype en cliquant sur le bouton `Present` en haut à droite.
 
+![Tester ton prototype](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/7osnv8srrd5rqzc5sdzweo0qaf0y)
+
+Tester ton prototype de cette façon présente deux avantages :
+- Cela te donnera des idées sur comment le rendre plus fluide
+- Tu éviteras toute panique de dernière minute si ton prototype ne fonctionne pas comme prévu
+
+Quand ton premier prototype est prêt, **appelle un prof** pour recueillir des retours et l'améliorer !

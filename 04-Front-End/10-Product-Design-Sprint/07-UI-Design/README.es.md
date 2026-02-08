@@ -1,31 +1,55 @@
-## Wireframe (1h)
+## UI Design (30min)
 
-Es hora de volver a tu user flow y crear tu wireframe con la ayuda de tu Kit UI. El objetivo es crear un lo-fi mock-up de cada pantalla de tu producto.
+¡Es hora de agregar el toque final a tu prototipo en forma de Diseño Visual!
 
-Comienza creando una nueva página en Figma y agregále un nuevo frame. Puedes dibujar un rectángulo en tu nuevo frame y centrarlo para ponerle márgenes en ambos lados (marque 'Rulers' en el menú Figma/View):
+Puedes ajustar varios aspectos para que tu prototipo se vea lo más parecido posible a una aplicación web real:
+- Imágenes
+- Fuentes
+- Colores
+- Íconos
 
-![Agregar márgenes en ambos lados del frame](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_wireframe_create_frame_with_margins.gif)
+### Agregar imágenes
 
-> Puedes remover el rectángulo cuando los márgenes estén bien definidos.
+Hay dos formas principales de agregar imágenes en tu diseño de Figma:
+- Usar el plugin de Unsplash
 
-Cuando crees tu primera pantalla, puedes simplemente duplicarla con copy/paste. De esta manera cada pantalla tendrá los mismos márgenes. Crea la misma cantidad de pantallas en Figma que tienes en tu user flow.
+![Agregar imágenes con Unsplash](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/dx60ylrisk12qew5rzxhver6r77r)
 
-![Duplicar un frame para mantener los márgenes](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_wireframe_duplicate_screen.gif)
+- Descargar y agregar una imagen manualmente
 
-> **Ten cuidado en esta parte**: debes **crear un frame en Figma para cada pantalla** de tu app. Si tienes dudas sobre tu setup, por favor llama a un profesor para validarlo.
+¡Incluso puedes editar varias imágenes al mismo tiempo!
 
-Cuando termines de crear todas tus pantallas, cada miembro de tu equipo podrá ocuparse de una (también puedes trabajar en pares).
+![Editar varias imágenes](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/96xt11f7mqymprmeum3bwq5pnecl)
 
-### Uso del Grid de Figma
+### Agregar íconos
 
-Tal vez necesites crear un grid durante la creación de tu proyecto.
+Ahora que eres un experto en front-end, conoces el mejor recurso para descargar íconos gratis: [FontAwesome](https://fontawesome.com) también es tu mejor amigo aquí.
+Descarga un ícono de tu elección, arrástralo y suéltalo en Figma ¡y listo!
 
-Si es el caso, el feature de Figma llamado **Grid** puede ayudarte. Aquí están los pasos a seguir:
+También puedes encontrar y agregar íconos directamente desde el Design System.
 
-1. Comienza poniendo en tu pantalla todas las cards que necesites sin alinearlas.
-1. Cuando termines, selecciona todas las cards y haz clic en el ícono azul que aparecerá abajo a la derecha de tu selección.
-1. ¡Deja que Figma haga el resto! Alineará automáticamente todos los ítems que hayas seleccionado y te dejará ajustar el tamaño, la alineación y el espacio entre los ítems.
+![Agregar íconos desde el Design System](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/acwa88e49x2ximbcbduyk3a6go7m)
 
-Aquí hay un ejemplo del uso del Grid de Figma:
+### Ajustar el contraste de una imagen con un degradado
 
-![El Grid de Figma](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_wireframe_grid.gif)
+En algunos casos, las imágenes tienen alto contraste, lo que puede dificultar la lectura del texto sobre ellas. Un gran truco de diseñador es agregar un degradado encima de esa imagen para mejorar la visibilidad.
+
+![Agregar degradado](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/n74jtxuuiibv608i5a7dy8pswm7a)
+
+### Fuentes y colores
+
+Usar el Simple Design System de Figma tiene algunas limitaciones, y actualizar fuentes y colores es una de ellas. Es posible hacerlo, pero pierdes los beneficios de un Design System.
+
+Para hoy, recomendamos:
+- Un máximo de 2 o 3 familias de fuentes
+- Un máximo de 2 o 3 colores diferentes, usados con moderación
+
+Si deseas actualizar una fuente específica, necesitarás "desacoplarla" del Design System. Ten en cuenta que esto es una solución temporal **solo para hoy**.
+
+![Actualizar fuente](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/b7p0baosjrifnpcpecwuq04kuakj)
+
+De manera similar, si deseas usar colores específicos para botones u otros componentes, necesitarás "desacoplarlos" del Design System.
+
+![Actualizar color del botón](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/le2jul8i7gkjp4wqnmzb7z0x4rk4)
+
+**Consejo de diseño profesional:** ¡Usa fuentes y colores con intención, para atraer la atención de tu usuario hacia una acción específica por ejemplo!

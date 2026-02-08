@@ -1,32 +1,43 @@
 ## Core User Journey (30min)
 
-Ahora que tienes un pitch de producto claro y que tu equipo comparte la misma visión, es hora de definir el **Core User Journey** de tu producto.
+Ahora que tienes un product pitch claro y que todo tu equipo comparte la misma visión, es hora de identificar y mapear el **Core User Journey** de tu producto.
 
-El core user journey es **la tarea principal** que un usuario hará en tu app para alcanzar su meta. Esta es la tarea más importante en tu app y la que le presentarás a tus compañeros.
+### ¿Qué es un Core User Journey?
 
+El Core User Journey es **la acción principal** que un usuario realizará con tu aplicación para lograr su objetivo. Esta es la tarea más importante de tu aplicación, y es la que **presentarás frente a la clase hoy**.
 
-### Qué es un Core User Journey
+¿Cómo identificar tu Core User Journey?
+Para la mayoría de las aplicaciones web modernas, el recorrido principal cumple con uno o ambos de estos criterios:
+- **Responde a la necesidad de tus usuarios objetivo**
+- Genera **ingresos**
 
-Un user journey representa **todos los pasos** que un usuario hará para completar una tarea.
+En FigJam, en la **Plantilla de UX Research**, escribe tu Core User Journey en el recuadro superior derecho.
 
-En aplicaciones web modernas el usuario puede hacer muchas tareas por medio de caminos diferentes (en inglés se usa el término journey). Algunas de estas tareas las encontramos en todos los productos (crear una cuenta, iniciar sesión, editar nuestro perfil, etc.) mientras que otras son específicas a un producto determinado. No incluyas **las tareas comunes en tu prototipo** ya que no le agregan ningún valor a tu producto.
+### Mapeando un User Journey
 
-Aquí debes enfocarte en las tareas específicas de tu producto y escoger el camino que corresponde perfectamente a la **necesidad que quieres satisfacer**.
+En las aplicaciones web modernas, los usuarios pueden realizar varias tareas a través de diferentes recorridos. Algunas de estas tareas son comunes a casi todos los productos (registrarse, iniciar sesión, editar perfil, etc.) y otras son específicas de cada aplicación. Los **flujos de registro/inicio de sesión no deben incluirse en tu prototipo** en esta etapa, pero serán parte de tu producto final. Usaremos una gema de Ruby para gestionarlos, así que no necesitas dedicarles tiempo durante este design sprint.
 
-Para tu información, la creación del user journey es parte de lo que los diseñadores de producto llaman **User Research**. No queremos concentrarnos en la interfaz del producto en este momento sino en **cada acción que el usuario ejecuta** para alcanzar su meta. Tu trabajo en esta etapa es definir de forma precisa cada etapa de tu core user journey siguiendo
-las siguientes reglas:
+Ahora que has identificado tu Core User Journey, podrás mapearlo identificando:
+- Qué **páginas** (o pantallas) navegará tu usuario
+- Qué **acción** debe realizar tu usuario en cada página
+- Qué **contexto** necesitará tu usuario para realizar esa acción
 
-- Cada paso debe describir una **acción de usuario**
-- Asegúrate de que **los pasos sean cortos:** Si no puedes hacerlo tal vez necesites dividirlo en 2 pasos.
-- Las **acciones deben ser concretas**: Evita descripciones ambiguas como `el usuario busca un restaurante` (pregúntate: ¿Cómo lo hace? Por nombre, dirección, evaluación, etc?)
-- **Usa palabras de humanos:** no estamos trabajando con la interfaz así que evita términos que se refieran a la misma (enfócate en palabras que describan la acción de un usuario).
+Por ejemplo, con Airbnb:
+- **Mi usuario está en:** la página de inicio
+- **Quiero que mi usuario:** busque un lugar donde hospedarse
+- **Para hacerlo, necesita:** especificar su destino, fechas de viaje, número de viajeros
 
-![Palabras que debes usar para describir los pasos del core user journey](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_core_user_journey.png)
+![User Journey](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/j0xhy7gsg3dlu03hy71gqp6anrz2)
+
+Para que tu Core User Journey sea lo más eficiente posible, ten en cuenta algunas reglas simples de UX (Experiencia de Usuario):
+- No más de **cinco páginas** (¡perderás usuarios en cada página!)
+- Al final del Core Journey, tus usuarios deben haber resuelto su necesidad (por ejemplo, reservado un lugar donde hospedarse)
+- Sin **recorridos de opción múltiple** - Es una línea recta
+
+**Nota importante:** Para el ejercicio de hoy, no necesitas crear una pantalla de inicio de sesión. Puedes asumir que tu usuario ya está conectado, o que no necesita iniciar sesión para usar tu aplicación.
 
 ### ¡Tu turno!
 
-Vuelve a la hoja de cálculo que duplicaste en el desafío anterior y completa la **pestaña número 4** con todos los pasos de tu Core User Journey.
+Regresa a la **Plantilla de UX Research** en FigJam y mapea tu Core User Journey, página por página.
 
-El resultado final debe parecerse a un **escenario de 10 a 15 pasos**. Cuando termines, tómate 5 minutos para precisar en cada uno de los pasos si corresponden a una pantalla o a un enlace entre dos pantallas.
-
-Cuando termines, llama a un profesor para que valide tu core user journey.
+Cuando termines, asegúrate de **llamar a un profesor** para validar tu Core User Journey.
