@@ -7,7 +7,6 @@ You can adjust several aspects to make your prototype look as close as possible 
 - Fonts
 - Colors
 - Icons
-- Animations
 
 ### Adding Images
 
