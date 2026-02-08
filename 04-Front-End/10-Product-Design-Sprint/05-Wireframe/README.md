@@ -23,7 +23,7 @@ When your first screen is created, you can simply duplicate it by `ctrl+D` or `C
 
 When all the screens are created, each member of your team can take care of one screen (you can also work by groups of 2).
 
-**Figma pro tip:**
+**🧠 Figma pro tip:**
 `Cmd+D` / `ctrl+D` is the **Duplicate** shortcut - it is your best friend
 
 ![Using Duplicate](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/elstqksbxtrkyy9qeuyv9u2x7c3t)
