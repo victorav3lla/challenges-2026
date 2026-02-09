@@ -1,31 +1,43 @@
-## Parcours utilisateur (30 min)
+## Core User Journey (30 min)
 
-Maintenant que tu disposes d'un pitch produit solide et d'une vision commune, le moment est venu de définir le **parcours utilisateur** de ton produit.
+Maintenant que tu as un product pitch clair et que toute ton équipe partage la même vision, il est temps d'identifier et de cartographier le **Core User Journey** de ton produit.
 
-Le parcours utilisateur est **la tâche principale** qu'un utilisateur va effectuer sur ton application pour atteindre son objectif. C'est la tâche la plus importante de ton application, et c'est celle que tu vas présenter à la classe.
+### Qu'est-ce qu'un Core User Journey ?
 
+Le Core User Journey est **l'action principale** qu'un utilisateur effectuera avec ton application pour atteindre son objectif. C'est la tâche la plus importante de ton application, et c'est celle que tu vas **pitcher devant la classe aujourd'hui**.
 
-### Qu'est-ce que le parcours utilisateur ?
+Comment identifier ton Core User Journey ?
+Pour la plupart des applications web modernes, le parcours principal répond à l'un ou aux deux critères suivants :
+- Il **répond au besoin de tes utilisateurs cibles**
+- Il génère des **revenus**
 
-Le parcours utilisateur représente **l'ensemble des étapes** qu'un utilisateur doit réaliser pour effectuer une tâche.
+Sur FigJam, dans le **Template UX Research**, note ton Core User Journey dans la case en haut à droite.
 
-Dans les applications Web modernes, plusieurs tâches peuvent être effectuées par les utilisateurs, au travers de différents parcours. Certaines de ces tâches sont communes à tous les produits (inscription, connexion, modification du profil, etc.) et d'autres sont propres à chaque produit. Les **tâches communes ne doivent pas figurer dans ton prototype**, car elles n'apportent pas de valeur à ton produit.
+### Cartographier un User Journey
 
-Concentre-toi sur les tâches propres à ton produit et choisis le parcours qui répond directement au **besoin que tu cherches à combler**.
+Dans les applications web modernes, plusieurs tâches peuvent être effectuées par les utilisateurs, à travers différents parcours. Certaines de ces tâches sont communes à presque tous les produits (inscription, connexion, modification du profil, etc.) et d'autres sont spécifiques à chaque application. Les **flux d'inscription/connexion ne doivent pas être inclus dans ton prototype** à ce stade, mais feront partie de ton produit final. Nous utiliserons une gem Ruby pour les gérer, donc tu n'as pas besoin d'y consacrer du temps pendant ce design sprint.
 
-Garde à l'esprit que la création du parcours utilisateur fait partie de ce que les concepteurs de produit appellent **User Research** ou la recherche sur les utilisateurs. Ici, on ne va pas s'intéresser à l'interface produit, mais à **chaque action que l'utilisateur effectuera** pour atteindre son objectif. Ton travail consiste à décrire précisément chaque étape de ton parcours utilisateur en respectant les règles suivantes :
+Maintenant que tu as identifié ton Core User Journey, tu vas pouvoir le cartographier en identifiant :
+- Quelles **pages** (ou écrans) ton utilisateur va parcourir
+- Quelle **action** ton utilisateur doit effectuer sur chaque page
+- Quel **contexte** ton utilisateur aura besoin pour effectuer cette action
 
-- Chaque étape doit décrire une **action de l'utilisateur**
-- **Les étapes doivent être brèves :** Si tu n'arrives pas à proposer une étape courte, peut-être qu'elle doit être décomposée en 2 étapes.
-- **L'action doit être concrète** : Évite les descriptions vagues du genre « L'utilisateur cherche un restaurant » (`The user searches a restaurant`) : comment le cherche-t-il ? Par son nom, son adresse, ses tarifs ?
-- **Utilise des mots humains :** On ne se concentre pas sur l'interface, alors évite les termes utilisés pour décrire une interface (choisis plutôt des mots qui décrivent une action de l'utilisateur)
+Par exemple, avec Airbnb :
+- **Mon utilisateur est sur :** la page d'accueil
+- **Je veux que mon utilisateur :** recherche un logement
+- **Pour cela, il doit :** spécifier sa destination, ses dates de voyage, le nombre de voyageurs
 
-![Mots à utiliser pour décrire les étapes du parcours utilisateur](https://raw.githubusercontent.com/lewagon/fullstack-images/master/frontend/pds_core_user_journey.png)
+![User Journey](https://wagon-public-assets.s3.eu-west-3.amazonaws.com/j0xhy7gsg3dlu03hy71gqp6anrz2)
+
+Pour rendre ton Core User Journey aussi efficace que possible, garde en tête quelques règles simples d'UX (Expérience Utilisateur) :
+- Pas plus de **cinq pages** (tu perdras des utilisateurs à chaque page !)
+- À la fin du Core Journey, tes utilisateurs doivent avoir répondu à leur besoin (par exemple, réservé un logement)
+- Pas de **parcours à choix multiples** - C'est une ligne droite
+
+**Note importante :** Pour l'exercice d'aujourd'hui, tu n'as pas besoin de créer un écran de connexion. Tu peux supposer que ton utilisateur est déjà connecté, ou qu'il n'a pas besoin de se connecter pour utiliser ton application.
 
 ### À ton tour !
 
-Reprends le tableau dont tu as fait une copie dans le challenge précédent et remplis la **feuille numéro 4** avec toutes les étapes de ton parcours utilisateur.
+Retourne sur le **Template UX Research** sur FigJam et cartographie ton Core User Journey, page par page.
 
-Le résultat final doit ressembler à un petit **scénario de 10 à 15 étapes**. Une fois que c'est fait, prends 5 minutes pour préciser si chaque étape correspond à un écran ou à un lien entre deux écrans.
-
-Une fois que tu as terminé, demande au prof de valider ton parcours utilisateur.
+Une fois terminé, assure-toi d'**appeler un prof** pour valider ton Core User Journey.
