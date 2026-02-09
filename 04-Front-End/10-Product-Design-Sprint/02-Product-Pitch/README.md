@@ -24,6 +24,6 @@ You can follow the steps described [on this Notion page](https://www.notion.so/G
 
 ### Your turn!
 
-Make a copy of our [UX Research Template](https://www.figma.com/board/r9YWUbUKq3XrH01rs1JxaV/UX-Research-Template?node-id=0-1&t=2tF7V8IehVEaACpd-1), invite your team members to the FigJam board and complete **the UX Product Pitch** section on the left-hand side.
+Make a copy of our [UX Research Template](https://www.figma.com/board/Tek3nxe1up2C7tj1PaHUDu/Le-Wagon---UX-Research-Template?t=vLkHDmBgp0iNX86e-1), invite your team members to the FigJam board and complete **the UX Product Pitch** section on the left-hand side.
 
 ⚠️ When you are done, make sure to **validate your product pitch with a teacher** before starting the next challenge. ⚠️
