@@ -76,15 +76,6 @@ gem "simple_form"
 
 ```bash
 bundle install
-rails generate simple_form:install --bootstrap
-```
-
-Then let's download the Le Wagon's stylesheets:
-
-```bash
-rm -rf app/assets/stylesheets
-curl -L https://github.com/lewagon/rails-stylesheets/archive/master.zip > stylesheets.zip
-unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-master app/assets/stylesheets
 ```
 
 Create the Sprockets manifest file (Rails 8 doesn't have this by default):
@@ -99,6 +90,20 @@ touch app/assets/config/manifest.js
 //= link_tree ../images
 //= link_tree ../../javascript .js
 //= link_directory ../stylesheets .css
+```
+
+Then install `simple_form` for fancier forms with Bootstrap styling:
+
+```bash
+rails generate simple_form:install --bootstrap
+```
+
+Then let's download the Le Wagon's stylesheets:
+
+```bash
+rm -rf app/assets/stylesheets
+curl -L https://github.com/lewagon/rails-stylesheets/archive/master.zip > stylesheets.zip
+unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-master app/assets/stylesheets
 ```
 
 Update your layout to use the correct stylesheet tag:

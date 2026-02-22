@@ -76,15 +76,6 @@ gem "simple_form"
 
 ```bash
 bundle install
-rails generate simple_form:install --bootstrap
-```
-
-然后让我们下载 Le Wagon 的样式表：
-
-```bash
-rm -rf app/assets/stylesheets
-curl -L https://github.com/lewagon/rails-stylesheets/archive/master.zip > stylesheets.zip
-unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-master app/assets/stylesheets
 ```
 
 创建 Sprockets manifest 文件（Rails 8 默认没有这个文件）：
@@ -99,6 +90,20 @@ touch app/assets/config/manifest.js
 //= link_tree ../images
 //= link_tree ../../javascript .js
 //= link_directory ../stylesheets .css
+```
+
+然后安装 `simple_form`，使用 Bootstrap 样式创建更好看的表单：
+
+```bash
+rails generate simple_form:install --bootstrap
+```
+
+然后让我们下载 Le Wagon 的样式表：
+
+```bash
+rm -rf app/assets/stylesheets
+curl -L https://github.com/lewagon/rails-stylesheets/archive/master.zip > stylesheets.zip
+unzip stylesheets.zip -d app/assets && rm stylesheets.zip && mv app/assets/rails-stylesheets-master app/assets/stylesheets
 ```
 
 更新你的 layout 以使用正确的 stylesheet 标签：
